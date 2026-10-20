@@ -1,0 +1,19 @@
+{
+  "assignment_checker": {
+    "t1_bm25.trec": "OK",
+    "t2_general.trec": "OK",
+    "t2_scientific.trec": "OK",
+    "t3_hybrid.trec": "OK",
+    "t3_rerank.trec": "OK",
+    "t4_random.trec": "OK",
+    "t4_hard.trec": "OK",
+    "val_bm25.trec": "OK",
+    "val_general.trec": "OK",
+    "t5_verification.csv": "OK",
+    "t5_val_verification.csv": "OK",
+    "t5_val_errors.csv": "MISSING"
+  },
+  "other_issues": [],
+  "human_review_required": true,
+  "supplemental_checks": "passed: finite sorted scores, Q0, category coverage when reviewed, training hashes, immutable inputs, report word counts, result fields"
+}

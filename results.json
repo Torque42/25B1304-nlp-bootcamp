@@ -1,0 +1,230 @@
+{
+  "name": "Ayush Agrawal",
+  "roll_no": "25B1304",
+  "seed": 42,
+  "gpu_used": "Task2=mps; reranker=mps; NLI=mps; float32",
+  "task1": {
+    "bm25_settings": "{\"text\": \"title_abstract\", \"k1\": 0.9, \"b\": 0.4, \"tokenizer\": \"lowercase Unicode alphanumeric runs excluding underscore\", \"idf\": \"log(1+(N-df+0.5)/(df+0.5))\", \"query_term_frequency\": false}",
+    "val_ndcg10": 0.8365668120474191
+  },
+  "task2": {
+    "general_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "scientific_model": "ncbi/MedCPT-Query-Encoder + ncbi/MedCPT-Article-Encoder",
+    "val_ndcg10_general": 0.815549269126426,
+    "val_ndcg10_scientific": 0.8508920087192072,
+    "index_time_sec": {
+      "general": 15.044205042067915,
+      "scientific": 127.64587108395062
+    },
+    "query_latency_ms": {
+      "general": 19.842426385730505,
+      "scientific": 59.94412078677366
+    },
+    "memory_mb": {
+      "general": 956.515625,
+      "scientific": 937.90625
+    }
+  },
+  "task3": {
+    "hybrid_method": "{\"method\": \"score_fusion\", \"normalization\": \"top100_minmax\", \"weights\": [0.375, 0.375, 0.25], \"components\": [\"bm25\", \"scientific\", \"general\"], \"clip_normalized_scores\": false, \"dense\": \"scientific\"}",
+    "reranker_model": "ncbi/MedCPT-Cross-Encoder",
+    "rerank_top_k": 20,
+    "val_ndcg10_hybrid": 0.8960605345428715,
+    "val_ndcg10_rerank": 0.9108547393855836,
+    "rerank_query_latency_ms": 950.9220084666672
+  },
+  "task4": {
+    "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "val_ndcg10_random_negatives": 0.8247126785861907,
+    "val_ndcg10_hard_negatives": 0.8395772959237157
+  },
+  "task5": {
+    "retriever_used": "rerank",
+    "nli_model": "cross-encoder/nli-deberta-v3-small",
+    "zero_shot_or_finetuned": "fine-tuned on training claims",
+    "val_f1": 0.5826771653543306
+  },
+  "report_q1": {
+    "bm25_wins": [
+      1156,
+      673
+    ],
+    "general_wins": [
+      1311,
+      55
+    ]
+  },
+  "diagnostics": {
+    "retrieval_metric_denominator": 106,
+    "retrieval_excluded_nei": 56,
+    "mrr_cutoff": 100,
+    "verification_claims": 162,
+    "verification": {
+      "precision": 0.5692307692307692,
+      "recall": 0.5967741935483871,
+      "f1": 0.5826771653543306,
+      "true_positives": 74,
+      "false_positives": 56,
+      "false_negatives": 50,
+      "exact_set_accuracy": 0.5432098765432098,
+      "error_count": 74,
+      "error_ids": [
+        6,
+        34,
+        55,
+        61,
+        63,
+        64,
+        88,
+        98,
+        106,
+        112,
+        119,
+        155,
+        167,
+        189,
+        235,
+        256,
+        264,
+        296,
+        313,
+        341,
+        349,
+        355,
+        375,
+        381,
+        382,
+        413,
+        417,
+        430,
+        463,
+        483,
+        490,
+        523,
+        531,
+        537,
+        541,
+        559,
+        566,
+        594,
+        616,
+        645,
+        669,
+        673,
+        682,
+        738,
+        751,
+        761,
+        766,
+        780,
+        815,
+        825,
+        886,
+        895,
+        898,
+        954,
+        962,
+        984,
+        1003,
+        1009,
+        1028,
+        1073,
+        1115,
+        1125,
+        1148,
+        1223,
+        1235,
+        1246,
+        1249,
+        1260,
+        1261,
+        1291,
+        1311,
+        1324,
+        1390,
+        1404
+      ],
+      "denominator_claims": 162
+    },
+    "nli_candidate_k": 5,
+    "nli_threshold": 0.9,
+    "nli_decision_config": {
+      "rule": "two_stage",
+      "evidence_threshold": 0.9,
+      "conditional_threshold": 0.7
+    },
+    "nli_input_mode": "full",
+    "nli_window_aggregation": "max",
+    "memory_convention": "peak process RSS MiB; MPS memory recorded separately",
+    "index_time_convention": "fresh tokenization, corpus encoding and searchable matrix; excludes model download/load",
+    "query_latency_convention": "30 sorted validation queries, warmed fresh individual tokenization/encoding/exact scoring/top100, synchronized MPS",
+    "retrieval_table": {
+      "bm25": {
+        "ndcg10": 0.8365668120474191,
+        "recall100": 0.9905660377358491,
+        "mrr100": 0.8150693732703564,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "general": {
+        "ndcg10": 0.815549269126426,
+        "recall100": 0.9905660377358491,
+        "mrr100": 0.7993074560603295,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "scientific": {
+        "ndcg10": 0.8508920087192072,
+        "recall100": 1.0,
+        "mrr100": 0.8126753749395258,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "hybrid": {
+        "ndcg10": 0.8960605345428715,
+        "recall100": 1.0,
+        "mrr100": 0.8715021962663472,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "rerank": {
+        "ndcg10": 0.9108547393855836,
+        "recall100": 1.0,
+        "mrr100": 0.8896401118099231,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "random": {
+        "ndcg10": 0.8247126785861907,
+        "recall100": 0.9905660377358491,
+        "mrr100": 0.8072992785277295,
+        "denominator": 106,
+        "excluded_nei": 56
+      },
+      "hard": {
+        "ndcg10": 0.8395772959237157,
+        "recall100": 0.9905660377358491,
+        "mrr100": 0.8236297590284201,
+        "denominator": 106,
+        "excluded_nei": 56
+      }
+    },
+    "error_category_counts": {
+      "entity_mismatch": 11,
+      "other": 51,
+      "numerical": 5,
+      "negation": 3,
+      "retrieval_miss": 4
+    },
+    "retrieval_miss_fraction": 0.05405405405405406
+  },
+  "completion": {
+    "human_review_complete": false,
+    "delegated_review_complete": true,
+    "review_method": "assistant semantic review explicitly delegated by the user; independently cross-checked by a second assistant",
+    "review_authorization": "review the categories yourself once, with high rigour, and make the final decision",
+    "review_provenance": "code/run_records/final-review-provenance.json",
+    "identity_complete": true,
+    "pending_gates": []
+  }
+}

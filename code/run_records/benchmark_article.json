@@ -1,0 +1,20 @@
+{
+  "kind": "article",
+  "source": "ncbi/MedCPT-Article-Encoder",
+  "revision": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+  "parameters": 109482240,
+  "device": "mps",
+  "dtype": "float32",
+  "max_length": 512,
+  "pooling": "cls_raw",
+  "load_time_sec": 19.045571082970127,
+  "finite_forward": true,
+  "cpu_mps_max_abs_difference": 2.86102294921875e-06,
+  "comparison_absolute_tolerance": 0.01,
+  "benchmark_items": 32,
+  "inference_sec": 1.1895903327967972,
+  "items_per_sec": 26.900016852663985,
+  "peak_rss_mb": 1211.875,
+  "mps_allocated_bytes": 678870272,
+  "mps_driver_bytes": 3419373568
+}

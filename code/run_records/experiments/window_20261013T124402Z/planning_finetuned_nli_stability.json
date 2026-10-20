@@ -1,0 +1,140 @@
+{
+  "selected_config": [
+    3,
+    0.8
+  ],
+  "selected_f1": 0.5836909871244635,
+  "baseline_f1": 0.3269230769230769,
+  "paired_bootstrap_gain95ci": [
+    0.17243851414268452,
+    0.35126363569880453
+  ],
+  "oof_f1_by_seed": [
+    0.5641025641025641,
+    0.5429864253393665,
+    0.5650224215246636
+  ],
+  "folds": [
+    {
+      "seed": 42,
+      "fold": 0,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 42,
+      "fold": 1,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "config": [
+        1,
+        0.6
+      ]
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "config": [
+        3,
+        0.7
+      ]
+    },
+    {
+      "seed": 43,
+      "fold": 0,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "config": [
+        1,
+        0.6
+      ]
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "config": [
+        1,
+        0.6
+      ]
+    },
+    {
+      "seed": 44,
+      "fold": 0,
+      "config": [
+        3,
+        0.7
+      ]
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "config": [
+        1,
+        0.6
+      ]
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "config": [
+        3,
+        0.8
+      ]
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "config": [
+        3,
+        0.8
+      ]
+    }
+  ],
+  "limitation": "Threshold CV only; architecture already chosen using validation. Descriptive paired bootstrap does not correct selection optimism."
+}

@@ -1,0 +1,1542 @@
+[
+  {
+    "claim_id": 1156,
+    "claim": "The DESMOND program caused substantial weight loss in most participants.",
+    "winner": "bm25",
+    "scores": {
+      "bm25": 1.0,
+      "general": 0.0
+    },
+    "gold": [
+      {
+        "doc_id": 12584053,
+        "label": "CONTRADICT",
+        "sentences": [
+          13
+        ]
+      }
+    ],
+    "ranked_documents": {
+      "bm25": [
+        {
+          "rank": 1,
+          "doc_id": 12584053,
+          "title": "Effectiveness of a diabetes education and self management programme (DESMOND) for people with newly diagnosed type 2 diabetes mellitus: three year follow-up of a cluster randomised controlled trial in primary care",
+          "abstract": [
+            "OBJECTIVE To measure whether the benefits of a single education and self management structured programme for people with newly diagnosed type 2 diabetes mellitus are sustained at three years.   \n",
+            "DESIGN Three year follow-up of a multicentre cluster randomised controlled trial in primary care, with randomisation at practice level.   \n",
+            "SETTING 207 general practices in 13 primary care sites in the United Kingdom.   \n",
+            "PARTICIPANTS 731 of the 824 participants included in the original trial were eligible for follow-up.",
+            "Biomedical data were collected on 604 (82.6%) and questionnaire data on 513 (70.1%) participants.   \n",
+            "INTERVENTION A structured group education programme for six hours delivered in the community by two trained healthcare professional educators compared with usual care.   \n",
+            "MAIN OUTCOME MEASURES The primary outcome was glycated haemoglobin (HbA(1c)) levels.",
+            "The secondary outcomes were blood pressure, weight, blood lipid levels, smoking status, physical activity, quality of life, beliefs about illness, depression, emotional impact of diabetes, and drug use at three years.   \n",
+            "RESULTS HbA(1c) levels at three years had decreased in both groups.",
+            "After adjusting for baseline and cluster the difference was not significant (difference -0.02, 95% confidence interval -0.22 to 0.17).",
+            "The groups did not differ for the other biomedical and lifestyle outcomes and drug use.",
+            "The significant benefits in the intervention group across four out of five health beliefs seen at 12 months were sustained at three years (P<0.01).",
+            "Depression scores and quality of life did not differ at three years.   \n",
+            "CONCLUSION A single programme for people with newly diagnosed type 2 diabetes mellitus showed no difference in biomedical or lifestyle outcomes at three years although there were sustained improvements in some illness beliefs.   \n",
+            "TRIAL REGISTRATION Current Controlled Trials ISRCTN17844016."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 2,
+          "doc_id": 22922353,
+          "title": "Prevalence of attempting weight loss and strategies for controlling weight.",
+          "abstract": [
+            "CONTEXT Overweight and obesity are increasing in the United States.",
+            "Changes in diet and physical activity are important for weight control.   \n",
+            "OBJECTIVES To examine the prevalence of attempting to lose or to maintain weight and to describe weight control strategies among US adults.   \n",
+            "DESIGN",
+            "The Behavioral Risk Factor Surveillance System, a random-digit telephone survey conducted in 1996 by state health departments.",
+            "Setting The 49 states (and the District of Columbia) that participated in the survey.   \n",
+            "PARTICIPANTS Adults aged 18 years and older (N = 107 804).   \n",
+            "MAIN OUTCOME MEASURES Reported current weights and goal weights, prevalence of weight loss or maintenance attempts, and strategies used to control weight (eating fewer calories, eating less fat, or using physical activity) by population subgroup.   \n",
+            "RESULTS The prevalence of attempting to lose and maintain weight was 28.8% and 35.1 % among men and 43.6% and 34.4% among women, respectively.",
+            "Among those attempting to lose weight, a common strategy was to consume less fat but not fewer calories (34.9% of men and 40.0% of women); only 21.5% of men and 19.4% of women reported using the recommended combination of eating fewer calories and engaging in at least 150 minutes of leisure-time physical activity per week.",
+            "Among men trying to lose weight, the median weight was 90.4 kg with a goal weight of 81.4 kg.",
+            "Among women, the median weight was 70.3 kg with a goal weight of 59.0 kg.   \n",
+            "CONCLUSIONS Weight loss and weight maintenance are common concerns for US men and women.",
+            "Most persons trying to lose weight are not using the recommended combination of reducing calorie intake and engaging in leisure-time physical activity 150 minutes or more per week."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 26067999,
+          "title": "Screening for Lung Cancer: U.S. Preventive Services Task Force Recommendation Statement",
+          "abstract": [
+            "The U.S. Preventive Services Task Force (USPSTF) makes recommendations about the effectiveness of specific preventive care services for patients without related signs or symptoms.",
+            "It bases its recommendations on the evidence of both the benefits and harms of the service and an assessment of the balance.",
+            "The USPSTF does not consider the costs of providing a service in this assessment.",
+            "The USPSTF recognizes that clinical decisions involve more considerations than evidence alone.",
+            "Clinicians should understand the evidence but individualize decision making to the specific patient or situation.",
+            "Similarly, the USPSTF notes that policy and coverage decisions involve considerations in addition to the evidence of clinical benefits and harms.",
+            "Summary of Recommendation and Evidence The USPSTF recommends annual screening for lung cancer with low-dose computed tomography (LDCT) in adults aged 55 to 80 years who have a 30 pack-year smoking history and currently smoke or have quit within the past 15 years.",
+            "Screening should be discontinued once a person has not smoked for 15 years or develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery.",
+            "(B recommendation)",
+            "See the Clinical Considerations section for suggestions for implementation in practice.",
+            "See the Figure for a summary of the recommendation and suggestions for clinical practice.",
+            "Figure.",
+            "Screening for lung cancer: clinical summary of U.S. Preventive Services Task Force recommendation.",
+            "Appendix Table 1 describes the USPSTF grades, and Appendix Table 2 describes the USPSTF classification of levels of certainty about net benefit.",
+            "Appendix Table 1.",
+            "What the USPSTF Grades Mean and Suggestions for Practice Appendix Table 2.",
+            "USPSTF Levels of Certainty Regarding Net Benefit Supplement.",
+            "Consumer Fact Sheet.",
+            "Rationale Importance Lung cancer is the third most common cancer and the leading cause of cancer-related death in the United States (1).",
+            "The most important risk factor for lung cancer is smoking, which results in approximately 85% of all U.S. lung cancer cases (2).",
+            "Although the prevalence of smoking has decreased, approximately 37% of U.S. adults are current or former smokers (2).",
+            "The incidence of lung cancer increases with age and occurs most commonly in persons aged 55 years or older.",
+            "Increasing age and cumulative exposure to tobacco smoke are the 2 most common risk factors for lung cancer.",
+            "Lung cancer has a poor prognosis, and nearly 90% of persons with lung cancer die of the disease.",
+            "However, early-stage nonsmall cell lung cancer (NSCLC) has a better prognosis and can be treated with surgical resection.",
+            "Detection Most lung cancer cases are NSCLC, and most screening programs focus on the detection and treatment of early-stage NSCLC.",
+            "Although chest radiography and sputum cytologic evaluation have been used to screen for lung cancer, LDCT has greater sensitivity for detecting early-stage cancer (3).",
+            "Benefits of Detection and Early Treatment Although lung cancer screening is not an alternative to smoking cessation, the USPSTF found adequate evidence that annual screening for lung cancer with LDCT in a defined population of high-risk persons can prevent a substantial number of lung cancerrelated deaths.",
+            "Direct evidence from a large, well-conducted, randomized, controlled trial (RCT) provides moderate certainty of the benefit of lung cancer screening with LDCT in this population (4).",
+            "The magnitude of benefit to the person depends on that person's risk for lung cancer because those who are at highest risk are most likely to benefit.",
+            "Screening cannot prevent most lung cancerrelated deaths, and smoking cessation remains essential.",
+            "Harms of Detection and Early Intervention and Treatment The harms associated with LDCT screening include false-negative and false-positive results, incidental findings, overdiagnosis, and radiation exposure.",
+            "False-positive LDCT results occur in a substantial proportion of screened persons; 95% of all positive results do not lead to a diagnosis of cancer.",
+            "In a high-quality screening program, further imaging can resolve most false-positive results; however, some patients may require invasive procedures.",
+            "The USPSTF found insufficient evidence on the harms associated with incidental findings.",
+            "Overdiagnosis of lung cancer occurs, but its precise magnitude is uncertain.",
+            "A modeling study performed for the USPSTF estimated that 10% to 12% of screen-detected cancer cases are overdiagnosedthat is, they would not have been detected in the patient's lifetime without screening.",
+            "Radiation harms, including cancer resulting from cumulative exposure to radiation, vary depending on the age at the start of screening; the number of scans received; and the person's exposure to other sources of radiation, particularly other medical imaging.",
+            "USPSTF Assessment The USPSTF concludes with moderate certainty that annual screening for lung cancer with LDCT is of moderate net benefit in asymptomatic persons who are at high risk for lung cancer based on age, total cumulative exposure to tobacco smoke, and years since quitting smoking.",
+            "The moderate net benefit of screening depends on limiting screening to persons who are at high risk, the accuracy of image interpretation being similar to that found in the NLST (National Lung Screening Trial), and the resolution of most false-positive results without invasive procedures (4).",
+            "Clinical Considerations Patient Population Under Consideration The risk for lung cancer increases with age and cumulative exposure to tobacco smoke and decreases with time since quitting smoking.",
+            "The best evidence for the benefit of screening comes from the NLST, which enrolled adults aged 55 to 74 years who had at least a 30 pack-year smoking history and were current smokers or had quit within the past 15 years.",
+            "As with all screening trials, the NLST tested a specific intervention over a finite period.",
+            "Because initial eligibility extended through age 74 years and participants received 3 annual screening computed tomographic scans, the oldest participants in the trial were aged 77 years.",
+            "The USPSTF used modeling studies to predict the benefits and harms of screening programs that use different screening intervals, age ranges, smoking histories, and times since quitting.",
+            "A program that annually screens adults aged 55 to 80 years who have a 30 pack-year smoking history and currently smoke or have quit within the past 15 years is projected to have a reasonable balance of benefits and harms.",
+            "The model assumes that persons who achieve 15 years of smoking cessation during the screening program discontinue screening.",
+            "This model predicts the outcomes of continuing the screening program used in the NLST through age 80 years.",
+            "Screening may not be appropriate for patients with substantial comorbid conditions, particularly those at the upper end of the screening age range.",
+            "The NLST excluded persons who were unlikely to complete curative lung cancer surgery and those with medical conditions that posed a substantial risk for death during the 8-year trial.",
+            "The baseline characteristics of the NLST showed a relatively healthy sample, and fewer than 10% of enrolled participants were older than 70 years (5).",
+            "Persons with serious comorbid conditions may experience net harm, no net benefit, or at least substantially less net benefit.",
+            "Similarly, persons who are unwilling to have curative lung surgery are unlikely to benefit from a screening program.",
+            "Assessment of Risk Age, total exposure to tobacco smoke, and years since quitting smoking are important risk factors for lung cancer and were used to determine eligibility in the NLST.",
+            "Other risk factors include specific occupational exposures, radon exposure, family history, and history of pulmonary fibrosis or chronic obstructive lung disease.",
+            "The incidence of lung cancer is relatively low in persons younger than 50 years but increases with age, especially after age 60 years.",
+            "In current and former smokers, age-specific incidence rates increase with age and cumulative exposure to tobacco smoke.",
+            "Smoking cessation substantially reduces a person's risk for developing and dying of lung cancer.",
+            "Among persons enrolled in the NLST, those who were at highest risk because of additional risk factors or a greater cumulative exposure to tobacco smoke experienced most of the benefit (6).",
+            "A validated multivariate model showed that persons in the highest 60% of risk accounted for 88% of all deaths preventable by screening.",
+            "Screening Tests Low-dose computed tomography has shown high sensitivity and acceptable specificity for the detection of lung cancer in high-risk persons.",
+            "Chest radiography and sputum cytologic evaluation have not shown adequate sensitivity or specificity as screening tests.",
+            "Therefore, LDCT is currently the only recommended screening test for lung cancer.",
+            "Treatment Surgical resection is the current standard of care for localized NSCLC.",
+            "This type of cancer is treated with surgical resection when possible and also with radiation and chemotherapy.",
+            "Annual LDCT screening may not be useful for patients with life-limiting comorbid conditions or poor functional status who may not be candidates for surgery.",
+            "Other Approaches to Prevention Smoking cessation is the most important intervention to prevent NSCLC.",
+            "Advising smokers to stop smoking and preventing nonsmokers from being exposed to tobacco smoke are the most effective ways to decrease the morbidity and mortality associated with lung cancer.",
+            "Current smokers should be informed of their continuing risk for lung cancer and offered cessation treatments.",
+            "Screening with LDCT should be viewed as an adjunct to tobacco cessation interventions.",
+            "Useful Resources Clinicians have many resources to help patients stop smoking.",
+            "The Centers for Disease Control and Prevention has developed a Web site with many such resources, including information on tobacco quit lines, available in several languages (www.cdc.gov/tobacco/campaign/tips).",
+            "Quit l"
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "abstract": [
+            "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n",
+            "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n",
+            "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs.",
+            "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n",
+            "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n",
+            "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy).",
+            "Secondary measures included weight and components of the metabolic syndrome.",
+            "Analysis was by intention-to-treat.   \n",
+            "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up.",
+            "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+            "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+            "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001).",
+            "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001).",
+            "There were no serious complications in either group.   \n",
+            "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+            "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n",
+            "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 40949706,
+          "title": "Preoperative Predictors of Weight Loss Following Bariatric Surgery: Systematic Review",
+          "abstract": [
+            "Obesity affects 32% of adults in the USA.",
+            "Surgery generates substantial weight loss, but 20–30% fails to achieve successful weight loss.",
+            "Our objective was to identify preoperative psychosocial factors associated with weight loss following bariatric surgery.",
+            "We performed a literature search of PubMed® and the Cochrane Database of Reviews of Effectiveness between 1988 and April 2010.",
+            "Articles were screened for bariatric surgery and weight loss if they included a preoperative predictor of weight loss: body mass index (BMI), preoperative weight loss, eating disorders, or psychiatric disorder/substance abuse.",
+            "One thousand seven titles were reviewed, 534 articles screened, and 115 included in the review.",
+            "Factors that may be positively associated with weight loss after surgery include mandatory preoperative weight loss (7 of 14 studies with positive association).",
+            "Factors that may be negatively associated with weight loss include preoperative BMI (37 out of 62 studies with negative association), super-obesity (24 out of 33 studies), and personality disorders (7 out of 14 studies).",
+            "Meta-analysis revealed a decrease of 10.1% excess weight loss (EWL) for super-obese patients (95% confidence interval (CI) [3.7–16.5%]), though there was significant heterogeneity in the meta-analysis, and an increase of 5.9% EWL for patients with binge eating at 12 months after surgery (95% CI [1.9–9.8%]).",
+            "Further studies are necessary to investigate whether preoperative factors can predict a clinically meaningful difference in weight loss after bariatric surgery.",
+            "The identification of predictive factors may improve patient selection and help develop interventions targeting specific needs of patients."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 43220289,
+          "title": "Psychological Outcome 4 Years after Restrictive Bariatric Surgery",
+          "abstract": [
+            "Extreme obesity is associated with severe psychiatric and somatic comorbidity and impairment of psychosocial functioning.",
+            "Bariatric surgery is the most effective treatment not only with regard to weight loss but also with obesity-associated illnesses.",
+            "Health-related psychological and psychosocial variables have been increasingly considered as important outcome variables of bariatric surgery.",
+            "However, the long-term impact of bariatric surgery on psychological and psychosocial functioning is largely unclear.",
+            "The aim of this study was to evaluate the relationship between the course of weight and psychological variables including depression, anxiety, health-related quality of life (HRQOL), and self-esteem up to 4 years after obesity surgery.",
+            "By standardized questionnaires prior to (T1) and 1 year (T2), 2 years (T3), and 4 years (T4) after surgery, 148 patients (47 males (31.8 %), 101 females (68.2 %), mean age 38.8 ± 10.2 years) were assessed.",
+            "On average, participants lost 24.6 % of their initial weight 1 year after surgery, 25.1 % after 2 years, and 22.3 % after 4 years.",
+            "Statistical analysis revealed significant improvements in depressive symptoms, physical dimension of quality of life, and self-esteem with peak improvements 1 year after surgery.",
+            "These improvements were largely maintained.",
+            "Significant correlations between weight loss and improvements in depression, physical aspects of HRQOL (T2, T3, and T4), and self-esteem (T3) were observed.",
+            "Corresponding to the considerable weight loss after bariatric surgery, important aspects of mental health improved significantly during the 4-year follow-up period.",
+            "However, parallel to weight regain, psychological improvements showed a slow but not significant decline over time."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 5824985,
+          "title": "Bariatric Surgery in the United Kingdom: A Cohort Study of Weight Loss and Clinical Outcomes in Routine Clinical Care.",
+          "abstract": [
+            "BACKGROUND Bariatric surgery is becoming a more widespread treatment for obesity.",
+            "Comprehensive evidence of the long-term effects of contemporary surgery on a broad range of clinical outcomes in large populations treated in routine clinical practice is lacking.",
+            "The objective of this study was to measure the association between bariatric surgery, weight, body mass index, and obesity-related co-morbidities.   \n",
+            "METHODS AND FINDINGS This was an observational retrospective cohort study using data from the United Kingdom Clinical Practice Research Datalink.",
+            "All 3,882 patients registered in the database and with bariatric surgery on or before 31 December 2014 were included and matched by propensity score to 3,882 obese patients without surgery.",
+            "The main outcome measures were change in weight and body mass index over 4 y; incident diagnoses of type 2 diabetes mellitus (T2DM), hypertension, angina, myocardial infarction (MI), stroke, fractures, obstructive sleep apnoea, and cancer; mortality; and resolution of hypertension and T2DM.",
+            "Weight measures were available for 3,847 patients between 1 and 4 mo, 2,884 patients between 5 and 12 mo, and 2,258 patients between 13 and 48 mo post-procedure.",
+            "Bariatric surgery patients exhibited rapid weight loss for the first four postoperative months, at a rate of 4.98 kg/mo (95% CI 4.88-5.08).",
+            "Slower weight loss was sustained to the end of 4 y. Gastric bypass (6.56 kg/mo) and sleeve gastrectomy (6.29 kg/mo) were associated with greater initial weight reduction than gastric banding (2.77 kg/mo).",
+            "Protective hazard ratios (HRs) were detected for bariatric surgery for incident T2DM, 0.68 (95% CI 0.55-0.83); hypertension, 0.35 (95% CI 0.27-0.45); angina, 0.59 (95% CI 0.40-0.87);MI, 0.28 (95% CI 0.10-0.74); and obstructive sleep apnoea, 0.55 (95% CI 0.40-0.87).",
+            "Strong associations were found between bariatric surgery and the resolution of T2DM, with a HR of 9.29 (95% CI 6.84-12.62), and between bariatric surgery and the resolution of hypertension, with a HR of 5.64 (95% CI 2.65-11.99).",
+            "No association was detected between bariatric surgery and fractures, cancer, or stroke.",
+            "Effect estimates for mortality found no protective association with bariatric surgery overall, with a HR of 0.97 (95% CI 0.66-1.43).",
+            "The data used were recorded for the management of patients in primary care and may be subject to inaccuracy, which would tend to lead to underestimates of true relative effect sizes.   \n",
+            "CONCLUSIONS Bariatric surgery as delivered in the UK healthcare system is associated with dramatic weight loss, sustained at least 4 y after surgery.",
+            "This weight loss is accompanied by substantial improvements in pre-existing T2DM and hypertension, as well as a reduced risk of incident T2DM, hypertension, angina, MI, and obstructive sleep apnoea.",
+            "Widening the availability of bariatric surgery could lead to substantial health benefits for many people who are morbidly obese."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 24917562,
+          "title": "Increased resting energy expenditure and weight loss are related to a systemic inflammatory response in lung cancer patients.",
+          "abstract": [
+            "PURPOSE To determine whether an increased resting energy expenditure (REE) and weight loss in lung cancer patients are related to a systemic inflammatory response.   ",
+            "MATERIALS AND METHODS REE was measured by indirect calorimetry using a ventilated hood system.",
+            "Soluble tumor necrosis factor receptor 55 (sTNF-R55) and sTNF-R75, soluble intercellular adhesion molecule (sICAM)-1, soluble E (sE)-selectin, lipopolysaccharide (LPS)-binding protein (LBP), interleukin (IL)-6, and TNF-alpha were measured using sandwich enzyme-linked immunosorbent assay (ELISA), and C-reactive protein (CRP) was measured by turbidimetry.",
+            "A cross-sectional study was performed to compare inflammatory mediators between hypermetabolic (REE/Harris Benedict [HB] equation > or = 110%) versus normometabolic (REE/HB < 110%) patients and between patients who lost weight (more than 10% loss of preillness weight) versus those whose weight remained stable.   \n",
+            "RESULTS Eighty-seven patients with primary non-small-cell lung cancer were consecutively entered onto the study.",
+            "Mean REE expressed as a percentage of the HB reference values was 118% +/-",
+            "12%; 67 patients were considered hypermetabolic.",
+            "Twenty-six patients had a substantial loss of more than 10% of their preillness weight.",
+            "Hypermetabolic patients were found to have significantly increased levels of sTNF-R55, sE-selectin, LBP, and CRP compared with normometabolic patients.",
+            "Weight loss was related with increased levels of the sTNF-Rs, sICAM-1, IL-6, LBP, and CRP.   \n",
+            "CONCLUSION Hypermetabolism and weight loss are related to the presence of a systemic inflammatory response as reflected by enhanced levels of inflammatory mediators and acute phase proteins in patients with primary non-small-cell lung cancer."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 12672066,
+          "title": "Behavioral treatment of obesity in patients encountered in primary care settings: a systematic review.",
+          "abstract": [
+            "IMPORTANCE In 2011, the Centers for Medicare & Medicaid Services (CMS) approved intensive behavioral weight loss counseling for approximately 14 face-to-face, 10- to 15-minute sessions over 6 months for obese beneficiaries in primary care settings, when delivered by physicians and other CMS-defined primary care practitioners.   \n",
+            "OBJECTIVE To conduct a systematic review of behavioral counseling for overweight and obese patients recruited from primary care, as delivered by primary care practitioners working alone or with trained interventionists (eg, medical assistants, registered dietitians), or by trained interventionists working independently.   ",
+            "EVIDENCE REVIEW We searched PubMed, CINAHL, and EMBASE for randomized controlled trials published between January 1980 and June 2014 that recruited overweight and obese patients from primary care; provided behavioral counseling (ie, diet, exercise, and behavioral therapy) for at least 3 months, with at least 6 months of postrandomization follow-up; included at least 15 participants per treatment group and objectively measured weights; and had a comparator, an intention-to-treat analysis, and attrition of less than 30% at 1 year or less than 40% at longer follow-up.   \n",
+            "FINDINGS Review of 3304 abstracts yielded 12 trials, involving 3893 participants, that met inclusion-exclusion criteria and prespecified quality ratings.",
+            "No studies were found in which primary care practitioners delivered counseling that followed the CMS guidelines.",
+            "Mean 6-month weight changes from baseline in the intervention groups ranged from a loss of 0.3 kg to 6.6 kg.",
+            "In the control group, mean change ranged from a gain of 0.9 kg to a loss of 2.0 kg.",
+            "Weight loss in both groups generally declined with longer follow-up (12-24 months).",
+            "Interventions that prescribed both reduced energy intake (eg, ≥ 500 kcal/d) and increased physical activity (eg, ≥150 minutes a week of walking), with traditional behavioral therapy, generally produced larger weight loss than interventions without all 3 specific components.",
+            "In the former trials, more treatment sessions, delivered in person or by telephone by trained interventionists, were associated with greater mean weight loss and likelihood of patients losing 5% or more of baseline weight.   \n",
+            "CONCLUSIONS AND RELEVANCE Intensive behavioral counseling can induce clinically meaningful weight loss, but there is little research on primary care practitioners providing such care.",
+            "The present findings suggest that a range of trained interventionists, who deliver counseling in person or by telephone, could be considered for treating overweight or obesity in patients encountered in primary care settings."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 8708082,
+          "title": "The prevention of type 2 diabetes",
+          "abstract": [
+            "Type 2 diabetes mellitus (T2DM) affects more than 7% of adults in the US and leads to substantial personal and economic burden.",
+            "In prediabetic states insulin secretion and action—potential targets of preventive interventions—are impaired.",
+            "In trials lifestyle modification (i.e. weight loss and exercise) has proven effective in preventing incident T2DM in high-risk groups, although weight loss has the greatest effect.",
+            "Various medications (e.g. metformin, thiazolidinediones and acarbose) can also prevent or delay T2DM.",
+            "Whether diabetes-prevention strategies also ultimately prevent the development of diabetic vascular complications is unknown, but cardiovascular risk factors are favorably affected.",
+            "Preventive strategies that can be implemented in routine clinical settings have been developed and evaluated.",
+            "Widespread application has, however, been limited by local financial considerations, even though cost-effectiveness might be achieved at the population level."
+          ],
+          "gold": false
+        }
+      ],
+      "general": [
+        {
+          "rank": 1,
+          "doc_id": 22922353,
+          "title": "Prevalence of attempting weight loss and strategies for controlling weight.",
+          "abstract": [
+            "CONTEXT Overweight and obesity are increasing in the United States.",
+            "Changes in diet and physical activity are important for weight control.   \n",
+            "OBJECTIVES To examine the prevalence of attempting to lose or to maintain weight and to describe weight control strategies among US adults.   \n",
+            "DESIGN",
+            "The Behavioral Risk Factor Surveillance System, a random-digit telephone survey conducted in 1996 by state health departments.",
+            "Setting The 49 states (and the District of Columbia) that participated in the survey.   \n",
+            "PARTICIPANTS Adults aged 18 years and older (N = 107 804).   \n",
+            "MAIN OUTCOME MEASURES Reported current weights and goal weights, prevalence of weight loss or maintenance attempts, and strategies used to control weight (eating fewer calories, eating less fat, or using physical activity) by population subgroup.   \n",
+            "RESULTS The prevalence of attempting to lose and maintain weight was 28.8% and 35.1 % among men and 43.6% and 34.4% among women, respectively.",
+            "Among those attempting to lose weight, a common strategy was to consume less fat but not fewer calories (34.9% of men and 40.0% of women); only 21.5% of men and 19.4% of women reported using the recommended combination of eating fewer calories and engaging in at least 150 minutes of leisure-time physical activity per week.",
+            "Among men trying to lose weight, the median weight was 90.4 kg with a goal weight of 81.4 kg.",
+            "Among women, the median weight was 70.3 kg with a goal weight of 59.0 kg.   \n",
+            "CONCLUSIONS Weight loss and weight maintenance are common concerns for US men and women.",
+            "Most persons trying to lose weight are not using the recommended combination of reducing calorie intake and engaging in leisure-time physical activity 150 minutes or more per week."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 2,
+          "doc_id": 12672066,
+          "title": "Behavioral treatment of obesity in patients encountered in primary care settings: a systematic review.",
+          "abstract": [
+            "IMPORTANCE In 2011, the Centers for Medicare & Medicaid Services (CMS) approved intensive behavioral weight loss counseling for approximately 14 face-to-face, 10- to 15-minute sessions over 6 months for obese beneficiaries in primary care settings, when delivered by physicians and other CMS-defined primary care practitioners.   \n",
+            "OBJECTIVE To conduct a systematic review of behavioral counseling for overweight and obese patients recruited from primary care, as delivered by primary care practitioners working alone or with trained interventionists (eg, medical assistants, registered dietitians), or by trained interventionists working independently.   ",
+            "EVIDENCE REVIEW We searched PubMed, CINAHL, and EMBASE for randomized controlled trials published between January 1980 and June 2014 that recruited overweight and obese patients from primary care; provided behavioral counseling (ie, diet, exercise, and behavioral therapy) for at least 3 months, with at least 6 months of postrandomization follow-up; included at least 15 participants per treatment group and objectively measured weights; and had a comparator, an intention-to-treat analysis, and attrition of less than 30% at 1 year or less than 40% at longer follow-up.   \n",
+            "FINDINGS Review of 3304 abstracts yielded 12 trials, involving 3893 participants, that met inclusion-exclusion criteria and prespecified quality ratings.",
+            "No studies were found in which primary care practitioners delivered counseling that followed the CMS guidelines.",
+            "Mean 6-month weight changes from baseline in the intervention groups ranged from a loss of 0.3 kg to 6.6 kg.",
+            "In the control group, mean change ranged from a gain of 0.9 kg to a loss of 2.0 kg.",
+            "Weight loss in both groups generally declined with longer follow-up (12-24 months).",
+            "Interventions that prescribed both reduced energy intake (eg, ≥ 500 kcal/d) and increased physical activity (eg, ≥150 minutes a week of walking), with traditional behavioral therapy, generally produced larger weight loss than interventions without all 3 specific components.",
+            "In the former trials, more treatment sessions, delivered in person or by telephone by trained interventionists, were associated with greater mean weight loss and likelihood of patients losing 5% or more of baseline weight.   \n",
+            "CONCLUSIONS AND RELEVANCE Intensive behavioral counseling can induce clinically meaningful weight loss, but there is little research on primary care practitioners providing such care.",
+            "The present findings suggest that a range of trained interventionists, who deliver counseling in person or by telephone, could be considered for treating overweight or obesity in patients encountered in primary care settings."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 6841927,
+          "title": "Transtheoretical model-based multiple behavior intervention for weight management: effectiveness on a population basis.",
+          "abstract": [
+            "BACKGROUND The increasing prevalence of overweight and obesity underscores the need for evidence-based, easily disseminable interventions for weight management that can be delivered on a population basis.",
+            "The Transtheoretical Model (TTM) offers a promising theoretical framework for multiple behavior weight management interventions.   \n",
+            "METHODS Overweight or obese adults (BMI 25-39.9; n=1277) were randomized to no-treatment control or home-based, stage-matched multiple behavior interventions for up to three behaviors related to weight management at 0, 3, 6, and 9 months.",
+            "All participants were re-assessed at 6, 12, and 24 months.   \n",
+            "RESULTS Significant treatment effects were found for healthy eating (47.5% versus 34.3%), exercise (44.90% versus 38.10%), managing emotional distress (49.7% versus 30.30%), and untreated fruit and vegetable intake (48.5% versus 39.0%) progressing to Action/Maintenance at 24 months.",
+            "The groups differed on weight lost at 24 months.",
+            "Co-variation of behavior change occurred and was much more pronounced in the treatment group, where individuals progressing to Action/Maintenance for a single behavior were 2.5-5 times more likely to make progress on another behavior.",
+            "The impact of the multiple behavior intervention was more than three times that of single behavior interventions.   \n",
+            "CONCLUSIONS This study demonstrates the ability of TTM-based tailored feedback to improve healthy eating, exercise, managing emotional distress, and weight on a population basis.",
+            "The treatment produced a high level of population impact that future multiple behavior interventions can seek to surpass."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 35495268,
+          "title": "Cardiovascular effects of intensive lifestyle intervention in type 2 diabetes.",
+          "abstract": [
+            "BACKGROUND Weight loss is recommended for overweight or obese patients with type 2 diabetes on the basis of short-term studies, but long-term effects on cardiovascular disease remain unknown.",
+            "We examined whether an intensive lifestyle intervention for weight loss would decrease cardiovascular morbidity and mortality among such patients.   \n",
+            "METHODS In 16 study centers in the United States, we randomly assigned 5145 overweight or obese patients with type 2 diabetes to participate in an intensive lifestyle intervention that promoted weight loss through decreased caloric intake and increased physical activity (intervention group) or to receive diabetes support and education (control group).",
+            "The primary outcome was a composite of death from cardiovascular causes, nonfatal myocardial infarction, nonfatal stroke, or hospitalization for angina during a maximum follow-up of 13.5 years.   \n",
+            "RESULTS The trial was stopped early on the basis of a futility analysis when the median follow-up was 9.6 years.",
+            "Weight loss was greater in the intervention group than in the control group throughout the study (8.6% vs. 0.7% at 1 year; 6.0% vs. 3.5% at study end).",
+            "The intensive lifestyle intervention also produced greater reductions in glycated hemoglobin and greater initial improvements in fitness and all cardiovascular risk factors, except for low-density-lipoprotein cholesterol levels.",
+            "The primary outcome occurred in 403 patients in the intervention group and in 418 in the control group (1.83 and 1.92 events per 100 person-years, respectively; hazard ratio in the intervention group, 0.95; 95% confidence interval, 0.83 to 1.09; P=0.51).   \n",
+            "CONCLUSIONS An intensive lifestyle intervention focusing on weight loss did not reduce the rate of cardiovascular events in overweight or obese adults with type 2 diabetes.",
+            "(Funded by the National Institutes of Health and others; Look AHEAD ClinicalTrials.gov number, NCT00017953.)."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 40949706,
+          "title": "Preoperative Predictors of Weight Loss Following Bariatric Surgery: Systematic Review",
+          "abstract": [
+            "Obesity affects 32% of adults in the USA.",
+            "Surgery generates substantial weight loss, but 20–30% fails to achieve successful weight loss.",
+            "Our objective was to identify preoperative psychosocial factors associated with weight loss following bariatric surgery.",
+            "We performed a literature search of PubMed® and the Cochrane Database of Reviews of Effectiveness between 1988 and April 2010.",
+            "Articles were screened for bariatric surgery and weight loss if they included a preoperative predictor of weight loss: body mass index (BMI), preoperative weight loss, eating disorders, or psychiatric disorder/substance abuse.",
+            "One thousand seven titles were reviewed, 534 articles screened, and 115 included in the review.",
+            "Factors that may be positively associated with weight loss after surgery include mandatory preoperative weight loss (7 of 14 studies with positive association).",
+            "Factors that may be negatively associated with weight loss include preoperative BMI (37 out of 62 studies with negative association), super-obesity (24 out of 33 studies), and personality disorders (7 out of 14 studies).",
+            "Meta-analysis revealed a decrease of 10.1% excess weight loss (EWL) for super-obese patients (95% confidence interval (CI) [3.7–16.5%]), though there was significant heterogeneity in the meta-analysis, and an increase of 5.9% EWL for patients with binge eating at 12 months after surgery (95% CI [1.9–9.8%]).",
+            "Further studies are necessary to investigate whether preoperative factors can predict a clinically meaningful difference in weight loss after bariatric surgery.",
+            "The identification of predictive factors may improve patient selection and help develop interventions targeting specific needs of patients."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 7098463,
+          "title": "Adjustable gastric banding and conventional therapy for type 2 diabetes: a randomized controlled trial.",
+          "abstract": [
+            "CONTEXT Observational studies suggest that surgically induced loss of weight may be effective therapy for type 2 diabetes.   \n",
+            "OBJECTIVE To determine if surgically induced weight loss results in better glycemic control and less need for diabetes medications than conventional approaches to weight loss and diabetes control.   \n",
+            "DESIGN, SETTING, AND PARTICIPANTS Unblinded randomized controlled trial conducted from December 2002 through December 2006 at the University Obesity Research Center in Australia, with general community recruitment to established treatment programs.",
+            "Participants were 60 obese patients (BMI >30 and <40) with recently diagnosed (<2 years) type 2 diabetes.   \n",
+            "INTERVENTIONS Conventional diabetes therapy with a focus on weight loss by lifestyle change vs laparoscopic adjustable gastric banding with conventional diabetes care.   \n",
+            "MAIN OUTCOME MEASURES Remission of type 2 diabetes (fasting glucose level <126 mg/dL [7.0 mmol/L] and glycated hemoglobin [HbA1c] value <6.2% while taking no glycemic therapy).",
+            "Secondary measures included weight and components of the metabolic syndrome.",
+            "Analysis was by intention-to-treat.   \n",
+            "RESULTS Of the 60 patients enrolled, 55 (92%) completed the 2-year follow-up.",
+            "Remission of type 2 diabetes was achieved by 22 (73%) in the surgical group and 4 (13%) in the conventional-therapy group.",
+            "Relative risk of remission for the surgical group was 5.5 (95% confidence interval, 2.2-14.0).",
+            "Surgical and conventional-therapy groups lost a mean (SD) of 20.7% (8.6%) and 1.7% (5.2%) of weight, respectively, at 2 years (P < .001).",
+            "Remission of type 2 diabetes was related to weight loss (R2 = 0.46, P < .001) and lower baseline HbA1c levels (combined R2 = 0.52, P < .001).",
+            "There were no serious complications in either group.   \n",
+            "CONCLUSIONS Participants randomized to surgical therapy were more likely to achieve remission of type 2 diabetes through greater weight loss.",
+            "These results need to be confirmed in a larger, more diverse population and have long-term efficacy assessed.   \n",
+            "TRIAL REGISTRATION actr.org Identifier: ACTRN012605000159651."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 41310252,
+          "title": "Dietary fat and obesity: evidence from epidemiology.",
+          "abstract": [
+            "The epidemiological evidence that a high-fat diet promotes the development of obesity is considered suggestive but not definitive.",
+            "The purpose of this paper is to provide a review of various epidemiological methods that have been used to address this issue as well as an updated summary of the existing evidence.",
+            "Ecological studies describing dietary fat intake and obesity at the population level provide mixed results and are likely to be biased by both confounding and unknown data quality factors that differ systematically across the populations studied.",
+            "Cross-sectional studies are generally in agreement that the concentration of fat in the diet is positively associated with relative weight.",
+            "Prospective studies of diet in relation to subsequent weight change give inconsistent results.",
+            "This may be due to behavioural factors such as dieting in response to weight gain; in addition, this type of study rarely takes into account the possible interaction between genetic predisposition and dietary fat in promoting weight gain.",
+            "Finally, intervention studies in free-living subjects are considered, providing evidence of a consistent but short-lived period of active weight loss on low-fat diets.",
+            "The experimental evidence on this relationship is more conclusive than the epidemiological evidence, although biological mechanisms remain controversial.",
+            "Some areas for future epidemiological research involve: longitudinal studies of dietary fat intake as a predictor of growth in children; observational studies relating total dietary fat and specific types of fat to overall as well as regional adiposity; and randomized intervention studies of the effect of low-fat diets with particular emphasis on and familial predisposition to obesity and other possible modifying factors."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 31562330,
+          "title": "Integrating nutrition security with treatment of people living with HIV: lessons from Kenya.",
+          "abstract": [
+            "BACKGROUND The increased caloric requirements of HIV-positive individuals, undesirable side effects of treatment that may be worsened by malnutrition (but alleviated by nutritional support), and associated declines in adherence and possible increased drug resistance are all justifications for developing better interventions to strengthen the nutrition security of individuals receiving antiretroviral treatment.   \n",
+            "OBJECTIVE To highlight key benefits and challenges relating to interventions aimed at strengthening the nutrition security of people living with HIV who are receiving antiretroviral treatment.   \n",
+            "METHODS Qualitative research was undertaken on a short-term nutrition intervention linked to the provision of free antiretroviral treatment for people living with HIV in western Kenya in late 2005 and early 2006.   \n",
+            "RESULTS Patients enrolled in the food program while on treatment regimens self-reported greater adherence to their medication, fewer side effects, and a greater ability to satisfy increased appetite.",
+            "Most clients self-reported weight gain, recovery of physical strength, and the resumption of labor activities while enrolled in dual (food supplementation and treatment) programs.",
+            "Such improvements were seen to catalyze increased support from family and community.   \n",
+            "CONCLUSIONS These findings provide further empirical support to calls for a more holistic and comprehensive response to the coexistence of AIDS epidemics with chronic nutrition insecurity.",
+            "Future work is needed to clarify ways of bridging the gap between short-term nutritional support to individuals and longer-term livelihood security programming for communities affected by AIDS.",
+            "Such interdisciplinary research will need to be matched by intersectoral action on the part of the agriculture and health sectors in such environments."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 11360768,
+          "title": "Effects of interventions in pregnancy on maternal weight and obstetric outcomes: meta-analysis of randomised evidence",
+          "abstract": [
+            "OBJECTIVE To evaluate the effects of dietary and lifestyle interventions in pregnancy on maternal and fetal weight and to quantify the effects of these interventions on obstetric outcomes.   \n",
+            "DESIGN Systematic review and meta-analysis.   \n",
+            "DATA SOURCES Major databases from inception to January 2012 without language restrictions.   ",
+            "STUDY SELECTION Randomised controlled trials that evaluated any dietary or lifestyle interventions with potential to influence maternal weight during pregnancy and outcomes of pregnancy.   \n",
+            "DATA SYNTHESIS Results summarised as relative risks for dichotomous data and mean differences for continuous data.   \n",
+            "RESULTS We identified 44 relevant randomised controlled trials (7278 women) evaluating three categories of interventions: diet, physical activity, and a mixed approach.",
+            "Overall, there was 1.42 kg reduction (95% confidence interval 0.95 to 1.89 kg) in gestational weight gain with any intervention compared with control.",
+            "With all interventions combined, there were no significant differences in birth weight (mean difference -50 g, -100 to 0 g) and the incidence of large for gestational age (relative risk 0.85, 0.66 to 1.09) or small for gestational age (1.00, 0.78 to 1.28) babies between the groups, though by itself physical activity was associated with reduced birth weight (mean difference -60 g, -120 to -10 g).",
+            "Interventions were associated with a reduced the risk of pre-eclampsia (0.74, 0.60 to 0.92) and shoulder dystocia (0.39, 0.22 to 0.70), with no significant effect on other critically important outcomes.",
+            "Dietary intervention resulted in the largest reduction in maternal gestational weight gain (3.84 kg, 2.45 to 5.22 kg), with improved pregnancy outcomes compared with other interventions.",
+            "The overall evidence rating was low to very low for important outcomes such as pre-eclampsia, gestational diabetes, gestational hypertension, and preterm delivery.   \n",
+            "CONCLUSIONS Dietary and lifestyle interventions in pregnancy can reduce maternal gestational weight gain and improve outcomes for both mother and baby.",
+            "Among the interventions, those based on diet are the most effective and are associated with reductions in maternal gestational weight gain and improved obstetric outcomes."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 7552215,
+          "title": "Long term pharmacotherapy for obesity and overweight: updated meta-analysis.",
+          "abstract": [
+            "OBJECTIVE To summarise the long term efficacy of anti-obesity drugs in reducing weight and improving health status.   \n",
+            "DESIGN Updated meta-analysis of randomised trials.   \n",
+            "DATA SOURCES Medline, Embase, the Cochrane controlled trials register, the Current Science meta-register of controlled trials, and reference lists of identified articles.",
+            "All data sources were searched from December 2002 (end date of last search) to December 2006.   ",
+            "STUDIES REVIEWED Double blind randomised placebo controlled trials of approved anti-obesity drugs used in adults (age over 18) for one year or longer.   \n",
+            "RESULTS 30 trials of one to four years' duration met the inclusion criteria: 16 orlistat (n=10 631 participants), 10 sibutramine (n=2623), and four rimonabant (n=6365).",
+            "Of these, 14 trials were new and 16 had previously been identified.",
+            "Attrition rates averaged 30-40%.",
+            "Compared with placebo, orlistat reduced weight by 2.9 kg (95% confidence interval 2.5 kg to 3.2 kg), sibutramine by 4.2 kg (3.6 kg to 4.7 kg), and rimonabant by 4.7 kg (4.1 kg to 5.3 kg).",
+            "Patients receiving active drug treatment were significantly more likely to achieve 5% and 10% weight loss thresholds.",
+            "Orlistat reduced the incidence of diabetes and improved concentrations of total cholesterol and low density lipoprotein cholesterol, blood pressure, and glycaemic control in patients with diabetes but increased rates of gastrointestinal side effects and slightly lowered concentrations of high density lipoprotein.",
+            "Sibutramine improved [corrected] concentrations of high density lipoprotein cholesterol and triglycerides [corrected] Rimonabant improved concentrations of high density lipoprotein cholesterol and triglycerides, blood pressure, and glycaemic control in patients with diabetes but increased the risk of mood disorders.   \n",
+            "CONCLUSIONS Orlistat, sibutramine, and rimonabant modestly reduce weight, have differing effects on cardiovascular risk profiles, and have specific adverse effects."
+          ],
+          "gold": false
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": 673,
+    "claim": "LDL cholesterol has a causal role in the development of cardiovascular disease.",
+    "winner": "bm25",
+    "scores": {
+      "bm25": 1.0,
+      "general": 0.38685280723454163
+    },
+    "gold": [
+      {
+        "doc_id": 2095573,
+        "label": "SUPPORT",
+        "sentences": [
+          0
+        ]
+      }
+    ],
+    "ranked_documents": {
+      "bm25": [
+        {
+          "rank": 1,
+          "doc_id": 2095573,
+          "title": "LDL-cholesterol concentrations: a genome-wide association study",
+          "abstract": [
+            "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease.",
+            "Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets.",
+            "We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n",
+            "METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria.",
+            "We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs.",
+            "We did replication studies in two independent populations consisting of up to 4979 participants.",
+            "Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n",
+            "FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3.",
+            "The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]).",
+            "Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations.",
+            "SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3.",
+            "These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 2,
+          "doc_id": 30981192,
+          "title": "How to control residual cardiovascular risk despite statin treatment: focusing on HDL-cholesterol.",
+          "abstract": [
+            "Lowering low-density lipoprotein-cholesterol (LDL-C) is the primary target in the management of dyslipidemia in patients at high risk of cardiovascular disease.",
+            "However, patients who have achieved LDL-C levels below the currently recommended targets may still experience cardiovascular events.",
+            "This may result, in part, from elevated triglyceride (TG) levels and low levels of high-density lipoprotein-cholesterol (HDL-C).",
+            "Low HDL-C and high TG levels are common and are recognized as independent risk factors for cardiovascular morbidity and mortality.",
+            "Furthermore, atherogenic dyslipidemia, characterized by low levels of HDL-C, high TG, and small, dense LDL particles, is a typical phenotype of dyslipidemia in subjects with insulin resistance and metabolic syndrome.",
+            "Therefore, to reduce further the risk of coronary heart disease (CHD), raising HDL-C and lowering TG may be the secondary therapeutic target for patients who achieve LDL-C levels below the currently recommended targets but are still at risk of CHD.",
+            "However, whether increasing HDL-C levels alone reduces CHD has not yet been confirmed in large randomized clinical trials, and whether functional HDL is more important than HDL-C in reducing CHD remains controversial.",
+            "Large CHD endpoint trials that include many patients with diabetes are underway to compare combination treatments with statin and niacin, fibrates, or cholesteryl ester transfer protein inhibitors with statin alone treatments.",
+            "In this review, we discuss the rationale and importance of increasing HDL-C levels with and without lowering TG levels in the treatment and prevention of cardiovascular events."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 5612738,
+          "title": "MicroRNA-148a regulates LDL receptor and ABCA1 expression to control circulating lipoprotein levels",
+          "abstract": [
+            "The hepatic low-density lipoprotein receptor (LDLR) pathway is essential for clearing circulating LDL cholesterol (LDL-C).",
+            "Whereas the transcriptional regulation of LDLR is well characterized, the post-transcriptional mechanisms that govern LDLR expression are just beginning to emerge.",
+            "Here we develop a high-throughput genome-wide screening assay to systematically identify microRNAs (miRNAs) that regulate LDLR activity in human hepatic cells.",
+            "From this screen we identified and characterized miR-148a as a negative regulator of LDLR expression and activity and defined a sterol regulatory element–binding protein 1 (SREBP1)-mediated pathway through which miR-148a regulates LDL-C uptake.",
+            "In mice, inhibition of miR-148a increased hepatic LDLR expression and decreased plasma LDL-C. Moreover, we found that miR-148a regulates hepatic expression of ATP-binding cassette, subfamily A, member 1 (ABCA1) and circulating high-density lipoprotein cholesterol (HDL-C) levels in vivo.",
+            "These studies uncover a role for miR-148a as a key regulator of hepatic LDL-C clearance through direct modulation of LDLR expression and demonstrate the therapeutic potential of inhibiting miR-148a to ameliorate an elevated LDL-C/HDL-C ratio, a prominent risk factor for cardiovascular disease."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 4647303,
+          "title": "Cardiovascular risk factors in childhood and carotid artery intima-media thickness in adulthood: the Cardiovascular Risk in Young Finns Study.",
+          "abstract": [
+            "CONTEXT Exposure to cardiovascular risk factors during childhood and adolescence may be associated with the development of atherosclerosis later in life.   \n",
+            "OBJECTIVE To study the relationship between cardiovascular risk factors measured in childhood and adolescence and common carotid artery intima-media thickness (IMT), a marker of preclinical atherosclerosis, measured in adulthood.   \n",
+            "DESIGN, SETTING, AND PARTICIPANTS Population-based, prospective cohort study conducted at 5 centers in Finland among 2229 white adults aged 24 to 39 years who were examined in childhood and adolescence at ages 3 to 18 years in 1980 and reexamined 21 years later, between September 2001 and January 2002.   \n",
+            "MAIN OUTCOME MEASURES Association between cardiovascular risk variables (levels of low-density lipoprotein cholesterol [LDL-C], high-density lipoprotein cholesterol [HDL-C], and triglycerides; LDL-C/HDL-C ratio; systolic and diastolic blood pressure; body mass index; smoking) measured in childhood and adulthood and common carotid artery IMT measured in adulthood.   \n",
+            "RESULTS In multivariable models adjusted for age and sex, IMT in adulthood was significantly associated with childhood LDL-C levels (P =.001), systolic blood pressure (P<.001), body mass index (P =.007), and smoking (P =.02), and with adult systolic blood pressure (P<.001), body mass index (P<.001), and smoking (P =.004).",
+            "The number of risk factors measured in 12- to 18-year-old adolescents, including high levels (ie, extreme age- and sex-specific 80th percentile) of LDL-C, systolic blood pressure, body mass index, and cigarette smoking, were directly related to carotid IMT measured in young adults at ages 33 through 39 years (P<.001 for both men and women), and remained significant after adjustment for contemporaneous risk variables.",
+            "The number of risk factors measured at ages 3 to 9 years demonstrated a weak direct relationship with carotid IMT at ages 24 to 30 years in men (P =.02) but not in women (P =.63).   \n",
+            "CONCLUSIONS Risk factor profile assessed in 12- to 18-year-old adolescents predicts adult common carotid artery IMT independently of contemporaneous risk factors.",
+            "These findings suggest that exposure to cardiovascular risk factors early in life may induce changes in arteries that contribute to the development of atherosclerosis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 7662206,
+          "title": "A Century of Cholesterol and Coronaries: From Plaques to Genes to Statins",
+          "abstract": [
+            "One-fourth of all deaths in industrialized countries result from coronary heart disease.",
+            "A century of research has revealed the essential causative agent: cholesterol-carrying low-density lipoprotein (LDL).",
+            "LDL is controlled by specific receptors (LDLRs) in liver that remove it from blood.",
+            "Mutations that eliminate LDLRs raise LDL and cause heart attacks in childhood, whereas mutations that raise LDLRs reduce LDL and diminish heart attacks.",
+            "If we are to eliminate coronary disease, lowering LDL should be the primary goal.",
+            "Effective means to achieve this goal are currently available.",
+            "The key questions are: who to treat, when to treat, and how long to treat."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 72933407,
+          "title": "Novel Risk Factors for Systemic Atherosclerosis: A Comparison of C-Reactive Protein, Fibrinogen, Homocysteine, Lipoprotein(a), and Standard Cholesterol Screening as Predictors of Peripheral Arterial Disease",
+          "abstract": [
+            "ContextSeveral novel risk factors for atherosclerosis have recently been proposed, but few comparative data exist to guide clinical use of these emerging biomarkers.",
+            "ObjectiveTo compare the predictive value of 11 lipid and nonlipid biomarkers as risk factors for development of symptomatic peripheral arterial disease (PAD).Design, Setting, and ParticipantsNested case-control study using plasma samples collected at baseline from a prospective cohort of 14 916 initially healthy US male physicians aged 40 to 84 years, of whom 140 subsequently developed symptomatic PAD (cases); 140 age- and smoking status–matched men who remained free of vascular disease during an average 9-year follow-up period were randomly selected as controls.",
+            "Main Outcome MeasureIncident PAD, as determined by baseline total cholesterol, high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), total cholesterol–HDL-C ratio, triglycerides, homocysteine, C-reactive protein (CRP), lipoprotein(a), fibrinogen, and apolipoproteins (apo) A-I and B-100.ResultsIn univariate analyses, plasma levels of total cholesterol (P<.001), LDL-C (P = .001), triglycerides (P = .001), apo B-100 (P = .001), fibrinogen (P = .02), CRP (P = .006), and the total cholesterol–HDL-C ratio (P<.001) were all significantly higher at baseline among men who subsequently developed PAD compared with those who did not, while levels of HDL-C (P = .009) and apo A-I (P = .05) were lower.",
+            "Nonsignificant baseline elevations of lipoprotein(a) (P = .40) and homocysteine (P = .90) were observed.",
+            "In multivariable analyses, the total cholesterol–HDL-C ratio was the strongest lipid predictor of risk (relative risk [RR] for those in the highest vs lowest quartile, 3.9; 95% confidence interval [CI], 1.7-8.6), while CRP was the strongest nonlipid predictor (RR for the highest vs lowest quartile, 2.8; 95% CI, 1.3-5.9).",
+            "In assessing joint effects, addition of CRP to standard lipid screening significantly improved risk prediction models based on lipid screening alone (P<.001).ConclusionsOf 11 atherothrombotic biomarkers assessed at baseline, the total cholesterol–HDL-C ratio and CRP were the strongest independent predictors of development of peripheral arterial disease.",
+            "C-reactive protein provided additive prognostic information over standard lipid measures."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 18852643,
+          "title": "Apolipoprotein E and atherosclerosis: beyond lipid effect.",
+          "abstract": [
+            "In humans, apolipoprotein E (apoE) is a polymorphic multifunctional protein.1 It is coded by three alleles (e2, e3, e4) of a modulator gene (level, variability, and susceptibility gene) at the apoE locus on chromosome 19, determining six apoE genotypes and plasma phenotypes.",
+            "Its pleiotropic effects are exerted on plasma lipoprotein metabolism, coagulation, oxidative processes, macrophage, glial cell and neuronal cell homeostasis, adrenal function, central nervous system physiology, inflammation, and cell proliferation.2,3 ApoE polymorphism modulates susceptibility to many diseases.",
+            "It is, however, particularly notorious for its role in neurodegenerative disorders4 and atherosclerotic arterial disease.5,6 The e4 allele (phenotypes E4/4 and E4/3) that is associated with higher low density lipoprotein cholesterol (LDL-C) is considered proatherogenic, whereas the presence of the e2 allele (E3/2, E2/2), being associated with lower LDL-C levels, is deemed to have the opposite effect (although it may be associated with increased plasma triglycerides and lipoprotein remnants).",
+            "This simple equation, however, is an oversimplification because these properties are subject to many environmental and genetic influences.",
+            "ApoE has allele- and gender-dependent effects on reverse cholesterol transport, platelet aggregation, and oxidative processes that are likely to affect the overall atherogenic potential ascribed to modulation of lipoprotein metabolism.2,3,6 Notwithstanding the context dependency, a recent meta-analysis fully supports the presence of the e4 allele as a significant risk factor for coronary artery disease.7 Several mechanisms have been evoked to link apoE with atherosclerosis, but the relationship is not fully unraveled in humans.",
+            "Nevertheless, some apoE mimetic peptides that promote LDL clearance are currently tested in animals for potential clinical applications.8,9  See page 436   The situation is relatively simpler in animals.",
+            "The mouse model has been prominently useful to test mechanisms …"
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 9814332,
+          "title": "LDL inhibits the mediation of cholesterol efflux from macrophage foam cells by apoA-I-containing lipoproteins. A putative mechanism for foam cell formation.",
+          "abstract": [
+            "Although the accumulation of cholesterol in macrophages appears to be an initial step in atherogenesis, low-density lipoprotein (LDL), a major risk factor for atherosclerosis, does not promote cholesterol accumulation in macrophages in its native form.",
+            "On the other hand, apolipoprotein (apo) A-I-containing lipoprotein removes cholesterol from cholesterol-loaded macrophages (foam cells) and prevents cholesterol from accumulating in the cells.",
+            "We examined the effect of LDL on cholesterol removal by two species of apoA-I-containing lipoproteins, one containing only apoA-I (LpA-I) and the other containing apoA-I and apoA-II (LpA-I/A-II).",
+            "When foam cells were incubated with LpA-I or LpA-I/A-II, cellular cholesterol mass was reduced.",
+            "In contrast, when LDL was added, the cholesterol-reducing capacities of these lipoproteins were dose-dependently inhibited by LDL.",
+            "In the presence of LDL, LpA-I and LpA-I/A-II removed free cholesterol preferentially from LDL rather than from the plasma membrane of foam cells.",
+            "In addition, a fair amount of cellular cholesterol was directly moved to LDL rather than to LpA-I or LpA-I/A-II.",
+            "The cellular cholesterol that moved to LDL was completely compensated for by the cholesterol influx from LDL to foam cells.",
+            "Thus, net cholesterol efflux (a combination of influx and efflux) from foam cells was inhibited by LDL.",
+            "These results, taken together, indicate that LDL may accelerate foam cell formation by inhibiting cholesterol removal from the cells and that elevated levels of plasma LDL may become a risk factor for atherosclerosis by inhibiting the function of LpA-I and LpA-I/A-II at the cellular level."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 15663829,
+          "title": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+          "abstract": [
+            "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n",
+            "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies.",
+            "We combined our results with existing data in a meta-analysis of 11 case-control studies.",
+            "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389.",
+            "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+            "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+            "No significant associations were observed between the rs198389 genotype and potential confounders.   \n",
+            "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+            "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions.",
+            "Please see later in the article for the Editors' Summary."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 6540064,
+          "title": "Effects of PCSK9 Inhibition With Alirocumab on Lipoprotein Metabolism in Healthy Humans",
+          "abstract": [
+            "BACKGROUND Alirocumab, a monoclonal antibody to proprotein convertase subtilisin/kexin type 9 (PCSK9), lowers plasma low-density lipoprotein (LDL) cholesterol and apolipoprotein B100 (apoB).",
+            "Although studies in mice and cells have identified increased hepatic LDL receptors as the basis for LDL lowering by PCSK9 inhibitors, there have been no human studies characterizing the effects of PCSK9 inhibitors on lipoprotein metabolism.",
+            "In particular, it is not known whether inhibition of PCSK9 has any effects on very low-density lipoprotein or intermediate-density lipoprotein (IDL) metabolism.",
+            "Inhibition of PCSK9 also results in reductions of plasma lipoprotein (a) levels.",
+            "The regulation of plasma Lp(a) levels, including the role of LDL receptors in the clearance of Lp(a), is poorly defined, and no mechanistic studies of the Lp(a) lowering by alirocumab in humans have been published to date.   \n",
+            "METHODS Eighteen (10 F, 8 mol/L) participants completed a placebo-controlled, 2-period study.",
+            "They received 2 doses of placebo, 2 weeks apart, followed by 5 doses of 150 mg of alirocumab, 2 weeks apart.",
+            "At the end of each period, fractional clearance rates (FCRs) and production rates (PRs) of apoB and apo(a) were determined.",
+            "In 10 participants, postprandial triglycerides and apoB48 levels were measured.   \n",
+            "RESULTS Alirocumab reduced ultracentrifugally isolated LDL-C by 55.1%, LDL-apoB by 56.3%, and plasma Lp(a) by 18.7%.",
+            "The fall in LDL-apoB was caused by an 80.4% increase in LDL-apoB FCR and a 23.9% reduction in LDL-apoB PR.",
+            "The latter was due to a 46.1% increase in IDL-apoB FCR coupled with a 27.2% decrease in conversion of IDL to LDL.",
+            "The FCR of apo(a) tended to increase (24.6%) without any change in apo(a) PR.",
+            "Alirocumab had no effects on FCRs or PRs of very low-density lipoproteins-apoB and very low-density lipoproteins triglycerides or on postprandial plasma triglycerides or apoB48 concentrations.   \n",
+            "CONCLUSIONS Alirocumab decreased LDL-C and LDL-apoB by increasing IDL- and LDL-apoB FCRs and decreasing LDL-apoB PR.",
+            "These results are consistent with increases in LDL receptors available to clear IDL and LDL from blood during PCSK9 inhibition.",
+            "The increase in apo(a) FCR during alirocumab treatment suggests that increased LDL receptors may also play a role in the reduction of plasma Lp(a).   ",
+            "CLINICAL TRIAL REGISTRATION URL: http://www.clinicaltrials.gov.",
+            "Unique identifier: NCT01959971."
+          ],
+          "gold": false
+        }
+      ],
+      "general": [
+        {
+          "rank": 1,
+          "doc_id": 7662206,
+          "title": "A Century of Cholesterol and Coronaries: From Plaques to Genes to Statins",
+          "abstract": [
+            "One-fourth of all deaths in industrialized countries result from coronary heart disease.",
+            "A century of research has revealed the essential causative agent: cholesterol-carrying low-density lipoprotein (LDL).",
+            "LDL is controlled by specific receptors (LDLRs) in liver that remove it from blood.",
+            "Mutations that eliminate LDLRs raise LDL and cause heart attacks in childhood, whereas mutations that raise LDLRs reduce LDL and diminish heart attacks.",
+            "If we are to eliminate coronary disease, lowering LDL should be the primary goal.",
+            "Effective means to achieve this goal are currently available.",
+            "The key questions are: who to treat, when to treat, and how long to treat."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 2,
+          "doc_id": 30981192,
+          "title": "How to control residual cardiovascular risk despite statin treatment: focusing on HDL-cholesterol.",
+          "abstract": [
+            "Lowering low-density lipoprotein-cholesterol (LDL-C) is the primary target in the management of dyslipidemia in patients at high risk of cardiovascular disease.",
+            "However, patients who have achieved LDL-C levels below the currently recommended targets may still experience cardiovascular events.",
+            "This may result, in part, from elevated triglyceride (TG) levels and low levels of high-density lipoprotein-cholesterol (HDL-C).",
+            "Low HDL-C and high TG levels are common and are recognized as independent risk factors for cardiovascular morbidity and mortality.",
+            "Furthermore, atherogenic dyslipidemia, characterized by low levels of HDL-C, high TG, and small, dense LDL particles, is a typical phenotype of dyslipidemia in subjects with insulin resistance and metabolic syndrome.",
+            "Therefore, to reduce further the risk of coronary heart disease (CHD), raising HDL-C and lowering TG may be the secondary therapeutic target for patients who achieve LDL-C levels below the currently recommended targets but are still at risk of CHD.",
+            "However, whether increasing HDL-C levels alone reduces CHD has not yet been confirmed in large randomized clinical trials, and whether functional HDL is more important than HDL-C in reducing CHD remains controversial.",
+            "Large CHD endpoint trials that include many patients with diabetes are underway to compare combination treatments with statin and niacin, fibrates, or cholesteryl ester transfer protein inhibitors with statin alone treatments.",
+            "In this review, we discuss the rationale and importance of increasing HDL-C levels with and without lowering TG levels in the treatment and prevention of cardiovascular events."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 15360986,
+          "title": "Estimating low-density lipoprotein cholesterol by the Friedewald equation is adequate for classifying patients on the basis of nationally recommended cutpoints.",
+          "abstract": [
+            "We compared low-density lipoprotein cholesterol (LDL) values obtained by the Friedewald formula--i.e., total cholesterol minus high-density lipoprotein (HDL) cholesterol minus very-low-density lipoprotein (VLDL) cholesterol (estimated as triglyceride divided by 5)--with those obtained by lipoprotein fractionation, using 4736 specimens.",
+            "When triglycerides were less than 2.0 g/L, greater than 90% of estimated LDL cholesterol values were acceptable, within +/-",
+            "10% of measured values.",
+            "At triglyceride concentrations of 2.0-4.0 g/L and 4.0-6.0 g/L, only 72% and 39%, respectively, of the estimates were acceptable.",
+            "LDL values derived from an alternative formula, estimating VLDL as triglycerides divided by 6, were even less accurate.",
+            "Nevertheless, the use of estimated LDL for risk classification based on the National Cholesterol Education Program Adult Treatment Panel cutpoints of 1.30 and 1.60 g/L was considered acceptable.",
+            "At triglyceride concentrations less than or equal to 5.0 g/L, 88% of classifications based on estimated LDL (using triglycerides divided by 5) were concordant with those by measured LDL.",
+            "Eleven percent of classifications were shifted across one cutpoint, evenly distributed between high and low.",
+            "Fewer than 1% of classifications, all with Type III hyperlipoproteinemia, were misclassified two cutpoints high.",
+            "Refinements in the estimation model did not substantially improve LDL estimation or concordance of risk classification."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 9814332,
+          "title": "LDL inhibits the mediation of cholesterol efflux from macrophage foam cells by apoA-I-containing lipoproteins. A putative mechanism for foam cell formation.",
+          "abstract": [
+            "Although the accumulation of cholesterol in macrophages appears to be an initial step in atherogenesis, low-density lipoprotein (LDL), a major risk factor for atherosclerosis, does not promote cholesterol accumulation in macrophages in its native form.",
+            "On the other hand, apolipoprotein (apo) A-I-containing lipoprotein removes cholesterol from cholesterol-loaded macrophages (foam cells) and prevents cholesterol from accumulating in the cells.",
+            "We examined the effect of LDL on cholesterol removal by two species of apoA-I-containing lipoproteins, one containing only apoA-I (LpA-I) and the other containing apoA-I and apoA-II (LpA-I/A-II).",
+            "When foam cells were incubated with LpA-I or LpA-I/A-II, cellular cholesterol mass was reduced.",
+            "In contrast, when LDL was added, the cholesterol-reducing capacities of these lipoproteins were dose-dependently inhibited by LDL.",
+            "In the presence of LDL, LpA-I and LpA-I/A-II removed free cholesterol preferentially from LDL rather than from the plasma membrane of foam cells.",
+            "In addition, a fair amount of cellular cholesterol was directly moved to LDL rather than to LpA-I or LpA-I/A-II.",
+            "The cellular cholesterol that moved to LDL was completely compensated for by the cholesterol influx from LDL to foam cells.",
+            "Thus, net cholesterol efflux (a combination of influx and efflux) from foam cells was inhibited by LDL.",
+            "These results, taken together, indicate that LDL may accelerate foam cell formation by inhibiting cholesterol removal from the cells and that elevated levels of plasma LDL may become a risk factor for atherosclerosis by inhibiting the function of LpA-I and LpA-I/A-II at the cellular level."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 2095573,
+          "title": "LDL-cholesterol concentrations: a genome-wide association study",
+          "abstract": [
+            "BACKGROUND LDL cholesterol has a causal role in the development of cardiovascular disease.",
+            "Improved understanding of the biological mechanisms that underlie the metabolism and regulation of LDL cholesterol might help to identify novel therapeutic targets.",
+            "We therefore did a genome-wide association study of LDL-cholesterol concentrations.   \n",
+            "METHODS We used genome-wide association data from up to 11,685 participants with measures of circulating LDL-cholesterol concentrations across five studies, including data for 293 461 autosomal single nucleotide polymorphisms (SNPs) with a minor allele frequency of 5% or more that passed our quality control criteria.",
+            "We also used data from a second genome-wide array in up to 4337 participants from three of these five studies, with data for 290,140 SNPs.",
+            "We did replication studies in two independent populations consisting of up to 4979 participants.",
+            "Statistical approaches, including meta-analysis and linkage disequilibrium plots, were used to refine association signals; we analysed pooled data from all seven populations to determine the effect of each SNP on variations in circulating LDL-cholesterol concentrations.   \n",
+            "FINDINGS In our initial scan, we found two SNPs (rs599839 [p=1.7x10(-15)] and rs4970834 [p=3.0x10(-11)]) that showed genome-wide statistical association with LDL cholesterol at chromosomal locus 1p13.3.",
+            "The second genome screen found a third statistically associated SNP at the same locus (rs646776 [p=4.3x10(-9)]).",
+            "Meta-analysis of data from all studies showed an association of SNPs rs599839 (combined p=1.2x10(-33)) and rs646776 (p=4.8x10(-20)) with LDL-cholesterol concentrations.",
+            "SNPs rs599839 and rs646776 both explained around 1% of the variation in circulating LDL-cholesterol concentrations and were associated with about 15% of an SD change in LDL cholesterol per allele, assuming an SD of 1 mmol/L.   INTERPRETATION We found evidence for a novel locus for LDL cholesterol on chromosome 1p13.3.",
+            "These results potentially provide insight into the biological mechanisms that underlie the regulation of LDL cholesterol and might help in the discovery of novel therapeutic targets for cardiovascular disease."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 6,
+          "doc_id": 22674621,
+          "title": "Effects of FXR in foam-cell formation and atherosclerosis development.",
+          "abstract": [
+            "Farnesoid X receptor (FXR), a bile-acid-activated member of the nuclear receptor superfamily, is essential in regulating bile-acid, cholesterol, and triglyceride homeostasis.",
+            "Disruption of the FXR gene in mice results in a proatherosclerotic lipid profile with increased serum cholesterols and triglycerides.",
+            "However, the role of FXR in foam-cell formation and atherosclerosis development remains unclear.",
+            "The current study showed that the peritoneal macrophages isolated from FXR-null mice took up less oxidized LDL-cholesterol (oxLDL-C), which was accompanied by a marked reduction in CD36 expression in these cells.",
+            "This result appears to be FXR-independent, as FXR was not detected in the peritoneal macrophages.",
+            "To assess to what extent FXR modulates atherosclerosis development, FXR/ApoE double-null mice were generated.",
+            "Female mice were used for atherosclerosis analysis.",
+            "Compared to ApoE-null mice, the FXR/ApoE double-null mice were found to have less atherosclerotic lesion area in the aorta, despite a further increase in the serum cholesterols and triglycerides.",
+            "Our results indicate that disruption of the FXR gene could attenuate atherosclerosis development, most likely resulting from reduced oxLDL-C uptake by macrophages.",
+            "Our study cautions the use of serum lipid levels as a surrogate marker to determine the efficiency of FXR modulators in treating hyperlipidemia."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 72933407,
+          "title": "Novel Risk Factors for Systemic Atherosclerosis: A Comparison of C-Reactive Protein, Fibrinogen, Homocysteine, Lipoprotein(a), and Standard Cholesterol Screening as Predictors of Peripheral Arterial Disease",
+          "abstract": [
+            "ContextSeveral novel risk factors for atherosclerosis have recently been proposed, but few comparative data exist to guide clinical use of these emerging biomarkers.",
+            "ObjectiveTo compare the predictive value of 11 lipid and nonlipid biomarkers as risk factors for development of symptomatic peripheral arterial disease (PAD).Design, Setting, and ParticipantsNested case-control study using plasma samples collected at baseline from a prospective cohort of 14 916 initially healthy US male physicians aged 40 to 84 years, of whom 140 subsequently developed symptomatic PAD (cases); 140 age- and smoking status–matched men who remained free of vascular disease during an average 9-year follow-up period were randomly selected as controls.",
+            "Main Outcome MeasureIncident PAD, as determined by baseline total cholesterol, high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), total cholesterol–HDL-C ratio, triglycerides, homocysteine, C-reactive protein (CRP), lipoprotein(a), fibrinogen, and apolipoproteins (apo) A-I and B-100.ResultsIn univariate analyses, plasma levels of total cholesterol (P<.001), LDL-C (P = .001), triglycerides (P = .001), apo B-100 (P = .001), fibrinogen (P = .02), CRP (P = .006), and the total cholesterol–HDL-C ratio (P<.001) were all significantly higher at baseline among men who subsequently developed PAD compared with those who did not, while levels of HDL-C (P = .009) and apo A-I (P = .05) were lower.",
+            "Nonsignificant baseline elevations of lipoprotein(a) (P = .40) and homocysteine (P = .90) were observed.",
+            "In multivariable analyses, the total cholesterol–HDL-C ratio was the strongest lipid predictor of risk (relative risk [RR] for those in the highest vs lowest quartile, 3.9; 95% confidence interval [CI], 1.7-8.6), while CRP was the strongest nonlipid predictor (RR for the highest vs lowest quartile, 2.8; 95% CI, 1.3-5.9).",
+            "In assessing joint effects, addition of CRP to standard lipid screening significantly improved risk prediction models based on lipid screening alone (P<.001).ConclusionsOf 11 atherothrombotic biomarkers assessed at baseline, the total cholesterol–HDL-C ratio and CRP were the strongest independent predictors of development of peripheral arterial disease.",
+            "C-reactive protein provided additive prognostic information over standard lipid measures."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 7757997,
+          "title": "Report of the National Heart, Lung, and Blood Institute Workshop on Lipoprotein(a) and Cardiovascular Disease: recent advances and future directions.",
+          "abstract": [
+            "It has been estimated that approximately 37% of the US population judged to be at high risk for developing coronary artery disease (CAD), based on the National Cholesterol Education Program guidelines, have increased plasma lipoprotein(a) [Lp(a)], whereas Lp(a) is increased in only 14% of those judged to be at low risk.",
+            "Therefore, the importance of establishing a better understanding of the relative contribution of Lp(a) to the risk burden for CAD and other forms of vascular disease, as well as the underlying mechanisms, is clearly evident.",
+            "However, the structural complexity and size heterogeneity of Lp(a) have hindered the development of immunoassays to accurately measure Lp(a) concentrations in plasma.",
+            "The large intermethod variation in Lp(a) values has made it difficult to compare data from different clinical studies and to achieve a uniform interpretation of clinical data.",
+            "A workshop was recently convened by the National Heart, Lung, and Blood Institute (NHLBI) to evaluate our current understanding of Lp(a) as a risk factor for atherosclerotic disorders; to determine how future studies could be designed to more clearly define the extent to which, and mechanisms by which, Lp(a) participates in these processes; and to present the results of the NHLBI-supported program for the evaluation and standardization of Lp(a) immunoassays.",
+            "This report includes the most recent data presented by the workshop participants and the resulting practical and research recommendations."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 2423940,
+          "title": "The Drosophila DHR96 nuclear receptor binds cholesterol and regulates cholesterol homeostasis.",
+          "abstract": [
+            "Cholesterol homeostasis is required to maintain normal cellular function and avoid the deleterious effects of hypercholesterolemia.",
+            "Here we show that the Drosophila DHR96 nuclear receptor binds cholesterol and is required for the coordinate transcriptional response of genes that are regulated by cholesterol and involved in cholesterol uptake, trafficking, and storage.",
+            "DHR96 mutants die when grown on low levels of cholesterol and accumulate excess cholesterol when maintained on a high-cholesterol diet.",
+            "The cholesterol accumulation phenotype can be attributed to misregulation of npc1b, an ortholog of the mammalian Niemann-Pick C1-like 1 gene NPC1L1, which is essential for dietary cholesterol uptake.",
+            "These studies define DHR96 as a central regulator of cholesterol homeostasis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 21571708,
+          "title": "Lipoprotein(a) concentration and the risk of coronary heart disease, stroke, and nonvascular mortality.",
+          "abstract": [
+            "CONTEXT Circulating concentration of lipoprotein(a) (Lp[a]), a large glycoprotein attached to a low-density lipoprotein-like particle, may be associated with risk of coronary heart disease (CHD) and stroke.   \n",
+            "OBJECTIVE To assess the relationship of Lp(a) concentration with risk of major vascular and nonvascular outcomes.   ",
+            "STUDY SELECTION Long-term prospective studies that recorded Lp(a) concentration and subsequent major vascular morbidity and/or cause-specific mortality published between January 1970 and March 2009 were identified through electronic searches of MEDLINE and other databases, manual searches of reference lists, and discussion with collaborators.   \n",
+            "DATA EXTRACTION Individual records were provided for each of 126,634 participants in 36 prospective studies.",
+            "During 1.3 million person-years of follow-up, 22,076 first-ever fatal or nonfatal vascular disease outcomes or nonvascular deaths were recorded, including 9336 CHD outcomes, 1903 ischemic strokes, 338 hemorrhagic strokes, 751 unclassified strokes, 1091 other vascular deaths, 8114 nonvascular deaths, and 242 deaths of unknown cause.",
+            "Within-study regression analyses were adjusted for within-person variation and combined using meta-analysis.",
+            "Analyses excluded participants with known preexisting CHD or stroke at baseline.   \n",
+            "DATA SYNTHESIS Lipoprotein(a) concentration was weakly correlated with several conventional vascular risk factors and it was highly consistent within individuals over several years.",
+            "Associations of Lp(a) with CHD risk were broadly continuous in shape.",
+            "In the 24 cohort studies, the rates of CHD in the top and bottom thirds of baseline Lp(a) distributions, respectively, were 5.6 (95% confidence interval [CI], 5.4-5.9) per 1000 person-years and 4.4 (95% CI, 4.2-4.6) per 1000 person-years.",
+            "The risk ratio for CHD, adjusted for age and sex only, was 1.16 (95% CI, 1.11-1.22) per 3.5-fold higher usual Lp(a) concentration (ie, per 1 SD), and it was 1.13 (95% CI, 1.09-1.18) following further adjustment for lipids and other conventional risk factors.",
+            "The corresponding adjusted risk ratios were 1.10 (95% CI, 1.02-1.18) for ischemic stroke, 1.01 (95% CI, 0.98-1.05) for the aggregate of nonvascular mortality, 1.00 (95% CI, 0.97-1.04) for cancer deaths, and 1.00 (95% CI, 0.95-1.06) for nonvascular deaths other than cancer.   \n",
+            "CONCLUSION Under a wide range of circumstances, there are continuous, independent, and modest associations of Lp(a) concentration with risk of CHD and stroke that appear exclusive to vascular outcomes."
+          ],
+          "gold": false
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": 1311,
+    "claim": "Trans-acting factors, such as lncRNAs, influence mRNA translation.",
+    "winner": "general",
+    "scores": {
+      "bm25": 0.0,
+      "general": 1.0
+    },
+    "gold": [
+      {
+        "doc_id": 13763195,
+        "label": "SUPPORT",
+        "sentences": [
+          1,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "ranked_documents": {
+      "bm25": [
+        {
+          "rank": 1,
+          "doc_id": 26378103,
+          "title": "The structure and expression of a novel gene activated in early mouse embryogenesis.",
+          "abstract": [
+            "We report the cloning and sequence determination of the mouse H19 gene.",
+            "This gene is under the genetic control of two trans-acting loci in the mouse, termed raf and Rif.",
+            "These loci determine the adult basal and inducible levels, respectively, of H19 mRNA, as well as the mRNA for alpha-fetoprotein.",
+            "By elucidating the sequence and structure of the H19 gene we show that it is unrelated to the alpha-fetoprotein gene, and therefore must have acquired its regulation by raf and Rif independently.",
+            "The sequence also indicates that the H19 gene has a very unusual structure.",
+            "It is composed of five exons, 1307, 135, 119, 127 and 560 bp in size, along with four very small introns whose combined lengths are 270 bases.",
+            "The largest open reading frame of the gene, sufficient to encode a protein of approximately 14 kd, is contained entirely within the first large exon, 680 bases downstream of the cap site of the mRNA.",
+            "Preceding the translation initiation codon are four ATG codons, each of which is followed shortly thereafter by translation terminator codons.",
+            "The rest of the gene, which encompasses all five exons, is presumed to be untranslated.",
+            "That the long 5' untranslated region may be used to regulate the translation of the mRNA is suggested from in vitro translation studies.",
+            "Experiments which utilized tissue culture cell lines of the mesodermal lineage suggest that the gene is activated very early during muscle cell differentiation."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 2,
+          "doc_id": 23618826,
+          "title": "Targeted proteomics reveals compositional dynamics of 60S pre-ribosomes after nuclear export",
+          "abstract": [
+            "Construction and intracellular targeting of eukaryotic pre-ribosomal particles involve a multitude of diverse transiently associating trans-acting assembly factors, energy-consuming enzymes, and transport factors.",
+            "The ability to rapidly and reliably measure co-enrichment of multiple factors with maturing pre-ribosomal particles presents a major biochemical bottleneck towards revealing their function and the precise contribution of >50 energy-consuming steps that drive ribosome assembly.",
+            "Here, we devised a workflow that combines genetic trapping, affinity-capture, and selected reaction monitoring mass spectrometry (SRM-MS), to overcome this deficiency.",
+            "We exploited this approach to interrogate the dynamic proteome of pre-60S particles after nuclear export.",
+            "We uncovered assembly factors that travel with pre-60S particles to the cytoplasm, where they are released before initiating translation.",
+            "Notably, we identified a novel shuttling factor that facilitates nuclear export of pre-60S particles.",
+            "Capturing and quantitating protein interaction networks of trapped intermediates of macromolecular complexes by our workflow is a reliable discovery tool to unveil dynamic processes that contribute to their in vivo assembly and transport."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 45143088,
+          "title": "Long non-coding RNAs with low expression levels in cells are enriched in secreted exosomes.",
+          "abstract": [
+            "Long non-coding RNAs (lncRNAs) are involved in regulating chromatin modifications, gene transcription, mRNA translation, and protein function.",
+            "We recently reported a high variation in the basal expression levels of a panel of lncRNAs in HeLa and MCF-7 cells and their differential response to DNA damage induction.",
+            "Here, we hypothesized that lncRNA molecules with different cellular expression may have a differential abundance in secreted exosomes, and their exosome levels would reflect cellular response to DNA damage.",
+            "MALAT1, HOTAIR, lincRNA-p21, GAS5, TUG1, CCND1-ncRNA in exosomes secreted from cultured cells were characterized.",
+            "A different expression pattern of lncRNAs in exosomes was seen compared to cells.",
+            "RNA molecules with relative low expression levels (lincRNA-p21, HOTAIR, ncRNA-CCND1) were highly enriched in exosomes.",
+            "TUG1 and GAS5 levels were moderately elevated in exosomes, whereas MALAT1--which was the most abundant molecule in cells--was present at levels comparable to its cellular levels.",
+            "lincRNA-p21 and ncRNA-CCND1 were the main molecules; exosome levels of them best reflect the change of their cellular levels upon exposure of the cells to bleomycin-induced DNA damage.",
+            "In conclusion, we provide evidence that lncRNAs have a differential abundance in exosomes, indicating a selective loading."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 9655347,
+          "title": "Long non-coding RNAs as novel players in β cell function and type 1 diabetes",
+          "abstract": [
+            "BACKGROUND Long non-coding RNAs (lncRNAs) are a sub-class within non-coding RNA repertoire that have emerged as crucial regulators of the gene expression in various pathophysiological conditions.",
+            "lncRNAs display remarkable versatility and wield their functions through interactions with RNA, DNA, or proteins.",
+            "Accumulating body of evidence based on multitude studies has highlighted the role of lncRNAs in many autoimmune and inflammatory diseases, including type 1 diabetes (T1D).",
+            "This review highlights emerging roles of lncRNAs in immune and islet β cell function as well as some of the challenges and opportunities in understanding the pathogenesis of T1D and its complications.   \n",
+            "CONCLUSION We accentuate that the lncRNAs within T1D-loci regions in consort with regulatory variants and enhancer clusters orchestrate the chromatin remodeling in β cells and thereby act as cis/trans-regulatory determinants of islet cell transcriptional programs."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 86129154,
+          "title": "Induced pluripotent stem cell lines derived from human somatic cells.",
+          "abstract": [
+            "Somatic cell nuclear transfer allows trans-acting factors present in the mammalian oocyte to reprogram somatic cell nuclei to an undifferentiated state.",
+            "We show that four factors (OCT4, SOX2, NANOG, and LIN28) are sufficient to reprogram human somatic cells to pluripotent stem cells that exhibit the essential characteristics of embryonic stem (ES) cells.",
+            "These induced pluripotent human stem cells have normal karyotypes, express telomerase activity, express cell surface markers and genes that characterize human ES cells, and maintain the developmental potential to differentiate into advanced derivatives of all three primary germ layers.",
+            "Such induced pluripotent human cell lines should be useful in the production of new disease models and in drug development, as well as for applications in transplantation medicine, once technical limitations (for example, mutation through viral integration) are eliminated."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 18924534,
+          "title": "Functional insights into the role of nuclear-retained long noncoding RNAs in gene expression control in mammalian cells",
+          "abstract": [
+            "The mammalian genome harbors thousands of long noncoding RNA (lncRNA) genes.",
+            "Recent studies have indicated the involvement of several of these lncRNAs in the regulation of gene expression.",
+            "lncRNAs play crucial roles in various biological processes ranging from epigenetic gene regulation, transcriptional control, to post-transcriptional regulation.",
+            "lncRNAs are localized in various subcellular compartments, and major proportion of these are retained in the cell nucleus and could be broadly classified as nuclear-retained lncRNAs (nrRNAs).",
+            "Based on the identified functions, members of the nrRNAs execute diverse roles, including providing architectural support to the hierarchical subnuclear organization and influencing the recruitment of chromatin modifier factors to specific chromatin sites.",
+            "In this review, we will summarize the recently described roles of mammalian nrRNAs in controlling gene expression by influencing chromatin organization, transcription, pre-mRNA processing, nuclear organization, and their involvement in disease."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 7848113,
+          "title": "Telomere-bound TRF1 and TRF2 stall the replication fork at telomeric repeats.",
+          "abstract": [
+            "Vertebrate telomeres consist of tandem repeats of T2AG3 and associated proteins including the telomeric DNA-binding proteins, TRF1 and TRF2.",
+            "It has been proposed that telomeres assume two interswitchable states, the open state that is accessible to various trans-acting factors and the closed state that excludes those factors.",
+            "TRF1 and TRF2 are believed to promote the formation of the closed state.",
+            "However, little is known about how those two states influence DNA replication.",
+            "We analyzed the effects of TRF1 and TRF2 on telomeric replication both in vitro and in vivo.",
+            "By exploiting the in vitro replication system of linear SV40 DNA, we found that telomeric repeats are a poor replication template.",
+            "Moreover, the addition of recombinant TRF1 and TRF2 significantly stalled the replication fork progression at telomeric repeats.",
+            "When TRF1 was overexpressed in HeLa cells, cells with 4N DNA content were accumulated.",
+            "Furthermore, cytological analyses revealed that the replication focus overlapped with telomere signals at a significantly higher frequency in TRF1-overexpressing cells than in control cells.",
+            "The results suggest that TRF1 and TRF2 exert inhibitory effects on replication fork progression."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 30261663,
+          "title": "A nuclear translation-like factor eIF4AIII is recruited to the mRNA during splicing and functions in nonsense-mediated decay.",
+          "abstract": [
+            "In eukaryotes, a surveillance mechanism known as nonsense-mediated decay (NMD) degrades the mRNA when a premature-termination codon (PTC) is present.",
+            "NMD requires translation to read the frame of the mRNA and detect the PTC.",
+            "During pre-mRNA splicing, the exon-exon junction complex (EJC) is recruited to a region 20-24 nt upstream of the exon junction on the mature mRNA.",
+            "The presence of a PTC upstream from the EJC elicits NMD.",
+            "Eukaryotic initiation factor 4A (eIF4A) III is a nuclear protein that interacts physically or functionally with translation initiation factors eIF4G and eIF4B, respectively, and shares strikingly high identity with the initiation factors eIF4AI/II.",
+            "Here we show that siRNA against eIF4AIII, but not against eIF4AI/II, inhibits NMD.",
+            "Moreover, eIF4AIII, but not eIF4AI, is specifically recruited to the EJC during splicing.",
+            "The observations that eIF4AIII is loaded onto the mRNA during splicing in the nucleus, has properties related to a translation initiation factor, and functions in NMD raises the possibility that eIF4AIII substitutes for eIF4AI/II during NMD."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 7029990,
+          "title": "Stress-induced apoptosis associated with null mutation of ADAR1 RNA editing deaminase gene.",
+          "abstract": [
+            "One type of RNA editing involves the conversion of adenosine residues into inosine in double-stranded RNA through the action of adenosine deaminases acting on RNA (ADAR).",
+            "A-to-I RNA editing of the coding sequence could result in synthesis of proteins not directly encoded in the genome.",
+            "ADAR edits also non-coding sequences of target RNAs, such as introns and 3'-untranslated regions, which may affect splicing, translation, and mRNA stability.",
+            "Three mammalian ADAR gene family members (ADAR1-3) have been identified.",
+            "Here we investigated phenotypes of mice homozygous for ADAR1 null mutation.",
+            "Although live ADAR1-/- embryos with normal gross appearance could be recovered up to E11.5, widespread apoptosis was detected in many tissues.",
+            "Fibroblasts derived from ADAR1-/- embryos were also prone to apoptosis induced by serum deprivation.",
+            "Our results demonstrate an essential requirement for ADAR1 in embryogenesis and suggest that it functions to promote survival of numerous tissues by editing one or more double-stranded RNAs required for protection against stress-induced apoptosis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 935538,
+          "title": "The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression.",
+          "abstract": [
+            "RNA-binding proteins are at the heart of posttranscriptional gene regulation, coordinating the processing, storage, and handling of cellular RNAs.",
+            "We show here that GRSF1, previously implicated in the binding and selective translation of influenza mRNAs, is targeted to mitochondria where it forms granules that colocalize with foci of newly synthesized mtRNA next to mitochondrial nucleoids.",
+            "GRSF1 preferentially binds RNAs transcribed from three contiguous genes on the light strand of mtDNA, the ND6 mRNA, and the long noncoding RNAs for cytb and ND5, each of which contains multiple consensus binding sequences.",
+            "RNAi-mediated knockdown of GRSF1 leads to alterations in mitochondrial RNA stability, abnormal loading of mRNAs and lncRNAs on the mitochondrial ribosome, and impaired ribosome assembly.",
+            "This results in a specific protein synthesis defect and a failure to assemble normal amounts of the oxidative phosphorylation complexes.",
+            "These data implicate GRSF1 as a key regulator of posttranscriptional mitochondrial gene expression."
+          ],
+          "gold": false
+        }
+      ],
+      "general": [
+        {
+          "rank": 1,
+          "doc_id": 13763195,
+          "title": "LincRNA-p21 suppresses target mRNA translation.",
+          "abstract": [
+            "Mammalian long intergenic noncoding RNAs (lincRNAs) are best known for modulating transcription.",
+            "Here we report a posttranscriptional function for lincRNA-p21 as a modulator of translation.",
+            "Association of the RNA-binding protein HuR with lincRNA-p21 favored the recruitment of let-7/Ago2 to lincRNA-p21, leading to lower lincRNA-p21 stability.",
+            "Under reduced HuR levels, lincRNA-p21 accumulated in human cervical carcinoma HeLa cells, increasing its association with JUNB and CTNNB1 mRNAs and selectively lowering their translation.",
+            "With elevated HuR, lincRNA-p21 levels declined, which in turn derepressed JunB and β-catenin translation and increased the levels of these proteins.",
+            "We propose that HuR controls translation of a subset of target mRNAs by influencing lincRNA-p21 levels.",
+            "Our findings uncover a role for lincRNA as a posttranscriptional inhibitor of translation."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 2,
+          "doc_id": 14050257,
+          "title": "Gene regulation by the act of long non-coding RNA transcription",
+          "abstract": [
+            "Long non-protein-coding RNAs (lncRNAs) are proposed to be the largest transcript class in the mouse and human transcriptomes.",
+            "Two important questions are whether all lncRNAs are functional and how they could exert a function.",
+            "Several lncRNAs have been shown to function through their product, but this is not the only possible mode of action.",
+            "In this review we focus on a role for the process of lncRNA transcription, independent of the lncRNA product, in regulating protein-coding-gene activity in cis.",
+            "We discuss examples where lncRNA transcription leads to gene silencing or activation, and describe strategies to determine if the lncRNA product or its transcription causes the regulatory effect."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 8426046,
+          "title": "Ribosome Profiling Provides Evidence that Large Noncoding RNAs Do Not Encode Proteins",
+          "abstract": [
+            "Large noncoding RNAs are emerging as an important component in cellular regulation.",
+            "Considerable evidence indicates that these transcripts act directly as functional RNAs rather than through an encoded protein product.",
+            "However, a recent study of ribosome occupancy reported that many large intergenic ncRNAs (lincRNAs) are bound by ribosomes, raising the possibility that they are translated into proteins.",
+            "Here, we show that classical noncoding RNAs and 5' UTRs show the same ribosome occupancy as lincRNAs, demonstrating that ribosome occupancy alone is not sufficient to classify transcripts as coding or noncoding.",
+            "Instead, we define a metric based on the known property of translation whereby translating ribosomes are released upon encountering a bona fide stop codon.",
+            "We show that this metric accurately discriminates between protein-coding transcripts and all classes of known noncoding transcripts, including lincRNAs.",
+            "Taken together, these results argue that the large majority of lincRNAs do not function through encoded proteins."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 13552682,
+          "title": "Decoding Mammalian Ribosome-mRNA States by Translational GTPase Complexes",
+          "abstract": [
+            "In eukaryotes, accurate protein synthesis relies on a family of translational GTPases that pair with specific decoding factors to decipher the mRNA code on ribosomes.",
+            "We present structures of the mammalian ribosome engaged with decoding factor⋅GTPase complexes representing intermediates of translation elongation (aminoacyl-tRNA⋅eEF1A), termination (eRF1⋅eRF3), and ribosome rescue (Pelota⋅Hbs1l).",
+            "Comparative analyses reveal that each decoding factor exploits the plasticity of the ribosomal decoding center to differentially remodel ribosomal proteins and rRNA.",
+            "This leads to varying degrees of large-scale ribosome movements and implies distinct mechanisms for communicating information from the decoding center to each GTPase.",
+            "Additional structural snapshots of the translation termination pathway reveal the conformational changes that choreograph the accommodation of decoding factors into the peptidyl transferase center.",
+            "Our results provide a structural framework for how different states of the mammalian ribosome are selectively recognized by the appropriate decoding factor⋅GTPase complex to ensure translational fidelity."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 6209599,
+          "title": "Extensive translation of circular RNAs driven by N6-methyladenosine",
+          "abstract": [
+            "Extensive pre-mRNA back-splicing generates numerous circular RNAs (circRNAs) in human transcriptome.",
+            "However, the biological functions of these circRNAs remain largely unclear.",
+            "Here we report that N6-methyladenosine (m6A), the most abundant base modification of RNA, promotes efficient initiation of protein translation from circRNAs in human cells.",
+            "We discover that consensus m6A motifs are enriched in circRNAs and a single m6A site is sufficient to drive translation initiation.",
+            "This m6A-driven translation requires initiation factor eIF4G2 and m6A reader YTHDF3, and is enhanced by methyltransferase METTL3/14, inhibited by demethylase FTO, and upregulated upon heat shock.",
+            "Further analyses through polysome profiling, computational prediction and mass spectrometry reveal that m6A-driven translation of circRNAs is widespread, with hundreds of endogenous circRNAs having translation potential.",
+            "Our study expands the coding landscape of human transcriptome, and suggests a role of circRNA-derived proteins in cellular responses to environmental stress."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 45143088,
+          "title": "Long non-coding RNAs with low expression levels in cells are enriched in secreted exosomes.",
+          "abstract": [
+            "Long non-coding RNAs (lncRNAs) are involved in regulating chromatin modifications, gene transcription, mRNA translation, and protein function.",
+            "We recently reported a high variation in the basal expression levels of a panel of lncRNAs in HeLa and MCF-7 cells and their differential response to DNA damage induction.",
+            "Here, we hypothesized that lncRNA molecules with different cellular expression may have a differential abundance in secreted exosomes, and their exosome levels would reflect cellular response to DNA damage.",
+            "MALAT1, HOTAIR, lincRNA-p21, GAS5, TUG1, CCND1-ncRNA in exosomes secreted from cultured cells were characterized.",
+            "A different expression pattern of lncRNAs in exosomes was seen compared to cells.",
+            "RNA molecules with relative low expression levels (lincRNA-p21, HOTAIR, ncRNA-CCND1) were highly enriched in exosomes.",
+            "TUG1 and GAS5 levels were moderately elevated in exosomes, whereas MALAT1--which was the most abundant molecule in cells--was present at levels comparable to its cellular levels.",
+            "lincRNA-p21 and ncRNA-CCND1 were the main molecules; exosome levels of them best reflect the change of their cellular levels upon exposure of the cells to bleomycin-induced DNA damage.",
+            "In conclusion, we provide evidence that lncRNAs have a differential abundance in exosomes, indicating a selective loading."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 30261663,
+          "title": "A nuclear translation-like factor eIF4AIII is recruited to the mRNA during splicing and functions in nonsense-mediated decay.",
+          "abstract": [
+            "In eukaryotes, a surveillance mechanism known as nonsense-mediated decay (NMD) degrades the mRNA when a premature-termination codon (PTC) is present.",
+            "NMD requires translation to read the frame of the mRNA and detect the PTC.",
+            "During pre-mRNA splicing, the exon-exon junction complex (EJC) is recruited to a region 20-24 nt upstream of the exon junction on the mature mRNA.",
+            "The presence of a PTC upstream from the EJC elicits NMD.",
+            "Eukaryotic initiation factor 4A (eIF4A) III is a nuclear protein that interacts physically or functionally with translation initiation factors eIF4G and eIF4B, respectively, and shares strikingly high identity with the initiation factors eIF4AI/II.",
+            "Here we show that siRNA against eIF4AIII, but not against eIF4AI/II, inhibits NMD.",
+            "Moreover, eIF4AIII, but not eIF4AI, is specifically recruited to the EJC during splicing.",
+            "The observations that eIF4AIII is loaded onto the mRNA during splicing in the nucleus, has properties related to a translation initiation factor, and functions in NMD raises the possibility that eIF4AIII substitutes for eIF4AI/II during NMD."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 35448676,
+          "title": "3'-End processing of pre-mRNA in eukaryotes.",
+          "abstract": [
+            "3'-Ends of almost all eukaryotic mRNAs are generated by endonucleolytic cleavage and addition of a poly(A) tail.",
+            "In mammalian cells, the reaction depends on the sequence AAUAAA upstream of the cleavage site, a degenerate GU-rich sequence element downstream of the cleavage site and stimulatory sequences upstream of AAUAAA.",
+            "Six factors have been identified that carry out the two reactions.",
+            "With a single exception, they have been purified to homogeneity and cDNAs for 11 subunits have been cloned.",
+            "Some of the cooperative RNA-protein and protein-protein interactions within the processing complex have been analyzed, but many details, including the identity of the endonuclease, remain unknown.",
+            "Several examples of regulated polyadenylation are being analyzed at the molecular level.",
+            "In the yeast Saccharomyces cerevisiae, sequences directing cleavage and polyadenylation are more degenerate than in metazoans, and a downstream element has not been identified.",
+            "The list of processing factors may be complete now with approximately a dozen polypeptides, but their functions in the reaction are largely unknown.",
+            "3'-Processing is known to be coupled to transcription.",
+            "This connection is thought to involve interactions of processing factors with the mRNA cap as well as with RNA polymerase II."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 12486491,
+          "title": "Ribosome-Mediated Specificity in Hox mRNA Translation and Vertebrate Tissue Patterning",
+          "abstract": [
+            "Historically, the ribosome has been viewed as a complex ribozyme with constitutive rather than regulatory capacity in mRNA translation.",
+            "Here we identify mutations of the Ribosomal Protein L38 (Rpl38) gene in mice exhibiting surprising tissue-specific patterning defects, including pronounced homeotic transformations of the axial skeleton.",
+            "In Rpl38 mutant embryos, global protein synthesis is unchanged; however the translation of a select subset of Homeobox mRNAs is perturbed.",
+            "Our data reveal that RPL38 facilitates 80S complex formation on these mRNAs as a regulatory component of the ribosome to confer transcript-specific translational control.",
+            "We further show that Rpl38 expression is markedly enriched in regions of the embryo where loss-of-function phenotypes occur.",
+            "Unexpectedly, a ribosomal protein (RP) expression screen reveals dynamic regulation of individual RPs within the vertebrate embryo.",
+            "Collectively, these findings suggest that RP activity may be highly regulated to impart a new layer of specificity in the control of gene expression and mammalian development."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 15590539,
+          "title": "Dual Regulation of miRNA Biogenesis Generates Target Specificity in Neurotrophin-Induced Protein Synthesis",
+          "abstract": [
+            "Control of translation is a fundamental source of regulation in gene expression.",
+            "The induction of protein synthesis by brain-derived neurotrophic factor (BDNF) critically contributes to enduring modifications of synaptic function, but how BDNF selectively affects only a minority of expressed mRNAs is poorly understood.",
+            "We report that BDNF rapidly elevates Dicer, increasing mature miRNA levels and inducing RNA processing bodies in neurons.",
+            "BDNF also rapidly induces Lin28, causing selective loss of Lin28-regulated miRNAs and a corresponding upregulation in translation of their target mRNAs.",
+            "Binding sites for Lin28-regulated miRNAs are necessary and sufficient to confer BDNF responsiveness to a transcript.",
+            "Lin28 deficiency, or expression of a Lin28-resistant Let-7 precursor miRNA, inhibits BDNF translation specificity and BDNF-dependent dendrite arborization.",
+            "Our data establish that specificity in BDNF-regulated translation depends upon a two-part posttranscriptional control of miRNA biogenesis that generally enhances mRNA repression in association with GW182 while selectively derepressing and increasing translation of specific mRNAs."
+          ],
+          "gold": false
+        }
+      ]
+    }
+  },
+  {
+    "claim_id": 55,
+    "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+    "winner": "general",
+    "scores": {
+      "bm25": 0.31546487678572877,
+      "general": 1.0
+    },
+    "gold": [
+      {
+        "doc_id": 49556906,
+        "label": "SUPPORT",
+        "sentences": [
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "ranked_documents": {
+      "bm25": [
+        {
+          "rank": 1,
+          "doc_id": 3973445,
+          "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+          "abstract": [
+            "Adenosine 5′-monophosphate–activated protein kinase (AMPK) is a pivotal regulator of metabolism at cellular and organismal levels.",
+            "AMPK also suppresses inflammation.",
+            "We found that pharmacological activation of AMPK rapidly inhibited the Janus kinase (JAK)–signal transducer and activator of transcription (STAT) pathway in various cells.",
+            "In vitro kinase assays revealed that AMPK directly phosphorylated two residues (Ser515 and Ser518) within the Src homology 2 domain of JAK1.",
+            "Activation of AMPK enhanced the interaction between JAK1 and 14-3-3 proteins in cultured vascular endothelial cells and fibroblasts, an effect that required the presence of Ser515 and Ser518 and was abolished in cells lacking AMPK catalytic subunits.",
+            "Mutation of Ser515 and Ser518 abolished AMPK-mediated inhibition of JAK-STAT signaling stimulated by either the sIL-6Rα/IL-6 complex or the expression of a constitutively active V658F-mutant JAK1 in human fibrosarcoma cells.",
+            "Clinically used AMPK activators metformin and salicylate enhanced the inhibitory phosphorylation of endogenous JAK1 and inhibited STAT3 phosphorylation in primary vascular endothelial cells.",
+            "Therefore, our findings reveal a mechanism by which JAK1 function and inflammatory signaling may be suppressed in response to metabolic stress and provide a mechanistic rationale for the investigation of AMPK activators in a range of diseases associated with enhanced activation of the JAK-STAT pathway."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 2,
+          "doc_id": 9752604,
+          "title": "Activated AMPK boosts the Nrf2/HO-1 signaling axis—A role for the unfolded protein response",
+          "abstract": [
+            "In light of the emerging interplay between redox and metabolic signaling pathways we investigated the potential cross talk between nuclear factor E2-related factor 2 (Nrf2) and AMP-activated kinase (AMPK), central regulators of the cellular redox and energy balance, respectively.",
+            "Making use of xanthohumol (XN) as an activator of both the AMPK and the Nrf2 signaling pathway we show that AMPK exerts a positive influence on Nrf2/heme oxygenase (HO)-1 signaling in mouse embryonic fibroblasts.",
+            "Genetic ablation and pharmacological inhibition of AMPK blunts Nrf2-dependent HO-1 expression by XN already at the mRNA level.",
+            "XN leads to AMPK activation via interference with mitochondrial function and activation of liver kinase B1 as upstream AMPK kinase.",
+            "The subsequent AMPK-mediated enhancement of the Nrf2/HO-1 response does not depend on inhibition of the mammalian target of rapamycin, inhibition of glycogen synthase kinase 3β, or altered abundance of Nrf2 (total and nuclear).",
+            "However, reduced endoplasmic reticulum stress was identified and elaborated as a step in the AMPK-augmented Nrf2/HO-1 response.",
+            "Overall, we shed more light on the hitherto incompletely understood cross talk between the LKB1/AMPK and the Nrf2/HO-1 axis revealing for the first time involvement of the unfolded protein response as an additional player and suggesting tight cooperation between signaling pathways controlling cellular redox, energy, or protein homeostasis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 9899292,
+          "title": "Role of AMP-activated protein kinase in mechanism of metformin action.",
+          "abstract": [
+            "Metformin is a widely used drug for treatment of type 2 diabetes with no defined cellular mechanism of action.",
+            "Its glucose-lowering effect results from decreased hepatic glucose production and increased glucose utilization.",
+            "Metformin's beneficial effects on circulating lipids have been linked to reduced fatty liver.",
+            "AMP-activated protein kinase (AMPK) is a major cellular regulator of lipid and glucose metabolism.",
+            "Here we report that metformin activates AMPK in hepatocytes; as a result, acetyl-CoA carboxylase (ACC) activity is reduced, fatty acid oxidation is induced, and expression of lipogenic enzymes is suppressed.",
+            "Activation of AMPK by metformin or an adenosine analogue suppresses expression of SREBP-1, a key lipogenic transcription factor.",
+            "In metformin-treated rats, hepatic expression of SREBP-1 (and other lipogenic) mRNAs and protein is reduced; activity of the AMPK target, ACC, is also reduced.",
+            "Using a novel AMPK inhibitor, we find that AMPK activation is required for metformin's inhibitory effect on glucose production by hepatocytes.",
+            "In isolated rat skeletal muscles, metformin stimulates glucose uptake coincident with AMPK activation.",
+            "Activation of AMPK provides a unified explanation for the pleiotropic beneficial effects of this drug; these results also suggest that alternative means of modulating AMPK should be useful for the treatment of metabolic disorders."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 3419709,
+          "title": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+          "abstract": [
+            "Nonalcoholic fatty liver disease (NAFLD) is a growing worldwide epidemic and an important risk factor for the development of insulin resistance, type 2 diabetes, nonalcoholic steatohepatitis (NASH), and hepatic cellular carcinoma (HCC).",
+            "Despite the prevalence of NAFLD, lifestyle interventions involving exercise and weight loss are the only accepted treatments for this disease.",
+            "Over the last decade, numerous experimental compounds have been shown to improve NAFLD in preclinical animal models, and many of these therapeutics have been shown to increase the activity of the cellular energy sensor AMP-activated protein kinase (AMPK).",
+            "Because AMPK activity is reduced by inflammation, obesity, and diabetes, increasing AMPK activity has been viewed as a viable therapeutic strategy to improve NAFLD.",
+            "In this review, we propose three primary mechanisms by which AMPK activation may improve NAFLD.",
+            "In addition, we examine the mechanisms by which AMPK is activated.",
+            "Finally, we identify 27 studies that have used AMPK activators to reduce NAFLD.",
+            "Future considerations for studies examining the relationship between AMPK and NAFLD are highlighted."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 24721866,
+          "title": "Activation of AMP-activated protein kinase suppresses oxidized low-density lipoprotein-induced macrophage proliferation.",
+          "abstract": [
+            "Macrophage-derived foam cells play important roles in the progression of atherosclerosis.",
+            "We reported previously that ERK1/2-dependent granulocyte/macrophage colony-stimulating factor (GM-CSF) expression, leading to p38 MAPK/ Akt signaling, is important for oxidized low density lipoprotein (Ox-LDL)-induced macrophage proliferation.",
+            "Here, we investigated whether activation of AMP-activated protein kinase (AMPK) could suppress macrophage proliferation.",
+            "Ox-LDL-induced proliferation of mouse peritoneal macrophages was assessed by [(3)H]thymidine incorporation and cell counting assays.",
+            "The proliferation was significantly inhibited by the AMPK activator 5-aminoimidazole-4-carboxamide ribonucleoside (AICAR) and restored by dominant-negative AMPKalpha1, suggesting that AMPK activation suppressed macrophage proliferation.",
+            "AICAR partially suppressed Ox-LDL-induced ERK1/2 phosphorylation and GM-CSF expression, suggesting that another mechanism is also involved in the AICAR-mediated suppression of macrophage proliferation.",
+            "AICAR suppressed GM-CSF-induced macrophage proliferation without suppressing p38 MAPK/Akt signaling.",
+            "GM-CSF suppressed p53 phosphorylation and expression and induced Rb phosphorylation.",
+            "Overexpression of p53 or p27(kip) suppressed GM-CSF-induced macrophage proliferation.",
+            "AICAR induced cell cycle arrest, increased p53 phosphorylation and expression, and suppressed GM-CSF-induced Rb phosphorylation via AMPK activation.",
+            "Moreover, AICAR induced p21(cip) and p27(kip) expression via AMPK activation, and small interfering RNA (siRNA) of p21(cip) and p27(kip) restored AICAR-mediated suppression of macrophage proliferation.",
+            "In conclusion, AMPK activation suppressed Ox-LDL-induced macrophage proliferation by suppressing GM-CSF expression and inducing cell cycle arrest.",
+            "These effects of AMPK activation may represent therapeutic targets for atherosclerosis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 22036571,
+          "title": "Post-translational modifications of the beta-1 subunit of AMP-activated protein kinase affect enzyme activity and cellular localization.",
+          "abstract": [
+            "The AMP-activated protein kinase (AMPK) is a ubiquitous mammalian protein kinase important in the adaptation of cells to metabolic stress.",
+            "The enzyme is a heterotrimer, consisting of a catalytic alpha subunit and regulatory beta and gamma subunits, each of which is a member of a larger isoform family.",
+            "The enzyme is allosterically regulated by AMP and by phosphorylation of the alpha subunit.",
+            "The beta subunit is post-translationally modified by myristoylation and multi-site phosphorylation.",
+            "In the present study, we have examined the impact of post-translational modification of the beta-1 subunit on enzyme activity, heterotrimer assembly and subcellular localization, using site-directed mutagenesis and expression of subunits in mammalian cells.",
+            "Removal of the myristoylation site (G2A mutant) results in a 4-fold activation of the enzyme and relocalization of the beta subunit from a particulate extranuclear distribution to a more homogenous cell distribution.",
+            "Mutation of the serine-108 phosphorylation site to alanine is associated with enzyme inhibition, but no change in cell localization.",
+            "In contrast, the phosphorylation site mutations, SS24, 25AA and S182A, while having no effects on enzyme activity, are associated with nuclear redistribution of the subunit.",
+            "Taken together, these results indicate that both myristoylation and phosphorylation of the beta subunit of AMPK modulate enzyme activity and subunit cellular localization, increasing the complexity of AMPK regulation."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 1590744,
+          "title": "AMP-Activated Protein Kinase: An Ubiquitous Signaling Pathway With Key Roles in the Cardiovascular System",
+          "abstract": [
+            "The AMP-activated protein kinase (AMPK) is a key regulator of cellular and whole-body energy homeostasis, which acts to restore energy homoeostasis whenever cellular energy charge is depleted.",
+            "Over the last 2 decades, it has become apparent that AMPK regulates several other cellular functions and has specific roles in cardiovascular tissues, acting to regulate cardiac metabolism and contractile function, as well as promoting anticontractile, anti-inflammatory, and antiatherogenic actions in blood vessels.",
+            "In this review, we discuss the role of AMPK in the cardiovascular system, including the molecular basis of mutations in AMPK that alter cardiac physiology and the proposed mechanisms by which AMPK regulates vascular function under physiological and pathophysiological conditions."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "abstract": [
+            "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1.",
+            "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4.",
+            "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5.",
+            "However, the role of AMPK in fibrosis is not well understood.",
+            "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts.",
+            "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+            "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+            "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 9,
+          "doc_id": 5172048,
+          "title": "Focal adhesion kinase links mechanical force to skin fibrosis via inflammatory signaling",
+          "abstract": [
+            "Exuberant fibroproliferation is a common complication after injury for reasons that are not well understood.",
+            "One key component of wound repair that is often overlooked is mechanical force, which regulates cell-matrix interactions through intracellular focal adhesion components, including focal adhesion kinase (FAK).",
+            "Here we report that FAK is activated after cutaneous injury and that this process is potentiated by mechanical loading.",
+            "Fibroblast-specific FAK knockout mice have substantially less inflammation and fibrosis than control mice in a model of hypertrophic scar formation.",
+            "We show that FAK acts through extracellular-related kinase (ERK) to mechanically trigger the secretion of monocyte chemoattractant protein-1 (MCP-1, also known as CCL2), a potent chemokine that is linked to human fibrotic disorders.",
+            "Similarly, MCP-1 knockout mice form minimal scars, indicating that inflammatory chemokine pathways are a major mechanism by which FAK mechanotransduction induces fibrosis.",
+            "Small-molecule inhibition of FAK blocks these effects in human cells and reduces scar formation in vivo through attenuated MCP-1 signaling and inflammatory cell recruitment.",
+            "These findings collectively indicate that physical force regulates fibrosis through inflammatory FAK–ERK–MCP-1 pathways and that molecular strategies targeting FAK can effectively uncouple mechanical force from pathologic scar formation."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 19313533,
+          "title": "Structural basis of allosteric and synergistic activation of AMPK by furan-2-phosphonic derivative C2 binding.",
+          "abstract": [
+            "The metabolic stress-sensing enzyme AMP-activated protein kinase (AMPK) is responsible for regulating metabolism in response to energy supply and demand.",
+            "Drugs that activate AMPK may be useful in the treatment of metabolic diseases including type 2 diabetes.",
+            "We have determined the crystal structure of AMPK in complex with its activator 5-(5-hydroxyl-isoxazol-3-yl)-furan-2-phosphonic acid (C2), revealing two C2-binding sites in the γ-subunit distinct from nucleotide sites.",
+            "C2 acts synergistically with the drug A769662 to activate AMPK α1-containing complexes independent of upstream kinases.",
+            "Our results show that dual drug therapies could be effective AMPK-targeting strategies to treat metabolic diseases."
+          ],
+          "gold": false
+        }
+      ],
+      "general": [
+        {
+          "rank": 1,
+          "doc_id": 49556906,
+          "title": "Metformin reverses established lung fibrosis in a bleomycin model",
+          "abstract": [
+            "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1.",
+            "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4.",
+            "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5.",
+            "However, the role of AMPK in fibrosis is not well understood.",
+            "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts.",
+            "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+            "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+            "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts."
+          ],
+          "gold": true
+        },
+        {
+          "rank": 2,
+          "doc_id": 3973445,
+          "title": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+          "abstract": [
+            "Adenosine 5′-monophosphate–activated protein kinase (AMPK) is a pivotal regulator of metabolism at cellular and organismal levels.",
+            "AMPK also suppresses inflammation.",
+            "We found that pharmacological activation of AMPK rapidly inhibited the Janus kinase (JAK)–signal transducer and activator of transcription (STAT) pathway in various cells.",
+            "In vitro kinase assays revealed that AMPK directly phosphorylated two residues (Ser515 and Ser518) within the Src homology 2 domain of JAK1.",
+            "Activation of AMPK enhanced the interaction between JAK1 and 14-3-3 proteins in cultured vascular endothelial cells and fibroblasts, an effect that required the presence of Ser515 and Ser518 and was abolished in cells lacking AMPK catalytic subunits.",
+            "Mutation of Ser515 and Ser518 abolished AMPK-mediated inhibition of JAK-STAT signaling stimulated by either the sIL-6Rα/IL-6 complex or the expression of a constitutively active V658F-mutant JAK1 in human fibrosarcoma cells.",
+            "Clinically used AMPK activators metformin and salicylate enhanced the inhibitory phosphorylation of endogenous JAK1 and inhibited STAT3 phosphorylation in primary vascular endothelial cells.",
+            "Therefore, our findings reveal a mechanism by which JAK1 function and inflammatory signaling may be suppressed in response to metabolic stress and provide a mechanistic rationale for the investigation of AMPK activators in a range of diseases associated with enhanced activation of the JAK-STAT pathway."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 3,
+          "doc_id": 1590744,
+          "title": "AMP-Activated Protein Kinase: An Ubiquitous Signaling Pathway With Key Roles in the Cardiovascular System",
+          "abstract": [
+            "The AMP-activated protein kinase (AMPK) is a key regulator of cellular and whole-body energy homeostasis, which acts to restore energy homoeostasis whenever cellular energy charge is depleted.",
+            "Over the last 2 decades, it has become apparent that AMPK regulates several other cellular functions and has specific roles in cardiovascular tissues, acting to regulate cardiac metabolism and contractile function, as well as promoting anticontractile, anti-inflammatory, and antiatherogenic actions in blood vessels.",
+            "In this review, we discuss the role of AMPK in the cardiovascular system, including the molecular basis of mutations in AMPK that alter cardiac physiology and the proposed mechanisms by which AMPK regulates vascular function under physiological and pathophysiological conditions."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 4,
+          "doc_id": 24721866,
+          "title": "Activation of AMP-activated protein kinase suppresses oxidized low-density lipoprotein-induced macrophage proliferation.",
+          "abstract": [
+            "Macrophage-derived foam cells play important roles in the progression of atherosclerosis.",
+            "We reported previously that ERK1/2-dependent granulocyte/macrophage colony-stimulating factor (GM-CSF) expression, leading to p38 MAPK/ Akt signaling, is important for oxidized low density lipoprotein (Ox-LDL)-induced macrophage proliferation.",
+            "Here, we investigated whether activation of AMP-activated protein kinase (AMPK) could suppress macrophage proliferation.",
+            "Ox-LDL-induced proliferation of mouse peritoneal macrophages was assessed by [(3)H]thymidine incorporation and cell counting assays.",
+            "The proliferation was significantly inhibited by the AMPK activator 5-aminoimidazole-4-carboxamide ribonucleoside (AICAR) and restored by dominant-negative AMPKalpha1, suggesting that AMPK activation suppressed macrophage proliferation.",
+            "AICAR partially suppressed Ox-LDL-induced ERK1/2 phosphorylation and GM-CSF expression, suggesting that another mechanism is also involved in the AICAR-mediated suppression of macrophage proliferation.",
+            "AICAR suppressed GM-CSF-induced macrophage proliferation without suppressing p38 MAPK/Akt signaling.",
+            "GM-CSF suppressed p53 phosphorylation and expression and induced Rb phosphorylation.",
+            "Overexpression of p53 or p27(kip) suppressed GM-CSF-induced macrophage proliferation.",
+            "AICAR induced cell cycle arrest, increased p53 phosphorylation and expression, and suppressed GM-CSF-induced Rb phosphorylation via AMPK activation.",
+            "Moreover, AICAR induced p21(cip) and p27(kip) expression via AMPK activation, and small interfering RNA (siRNA) of p21(cip) and p27(kip) restored AICAR-mediated suppression of macrophage proliferation.",
+            "In conclusion, AMPK activation suppressed Ox-LDL-induced macrophage proliferation by suppressing GM-CSF expression and inducing cell cycle arrest.",
+            "These effects of AMPK activation may represent therapeutic targets for atherosclerosis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 5,
+          "doc_id": 38533515,
+          "title": "AMP-activated/SNF1 protein kinases: conserved guardians of cellular energy",
+          "abstract": [
+            "The SNF1/AMP-activated protein kinase (AMPK) family maintains the balance between ATP production and consumption in all eukaryotic cells.",
+            "The kinases are heterotrimers that comprise a catalytic subunit and regulatory subunits that sense cellular energy levels.",
+            "When energy status is compromised, the system activates catabolic pathways and switches off protein, carbohydrate and lipid biosynthesis, as well as cell growth and proliferation.",
+            "Surprisingly, recent results indicate that the AMPK system is also important in functions that go beyond the regulation of energy homeostasis, such as the maintenance of cell polarity in epithelial cells."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 6,
+          "doc_id": 5172048,
+          "title": "Focal adhesion kinase links mechanical force to skin fibrosis via inflammatory signaling",
+          "abstract": [
+            "Exuberant fibroproliferation is a common complication after injury for reasons that are not well understood.",
+            "One key component of wound repair that is often overlooked is mechanical force, which regulates cell-matrix interactions through intracellular focal adhesion components, including focal adhesion kinase (FAK).",
+            "Here we report that FAK is activated after cutaneous injury and that this process is potentiated by mechanical loading.",
+            "Fibroblast-specific FAK knockout mice have substantially less inflammation and fibrosis than control mice in a model of hypertrophic scar formation.",
+            "We show that FAK acts through extracellular-related kinase (ERK) to mechanically trigger the secretion of monocyte chemoattractant protein-1 (MCP-1, also known as CCL2), a potent chemokine that is linked to human fibrotic disorders.",
+            "Similarly, MCP-1 knockout mice form minimal scars, indicating that inflammatory chemokine pathways are a major mechanism by which FAK mechanotransduction induces fibrosis.",
+            "Small-molecule inhibition of FAK blocks these effects in human cells and reduces scar formation in vivo through attenuated MCP-1 signaling and inflammatory cell recruitment.",
+            "These findings collectively indicate that physical force regulates fibrosis through inflammatory FAK–ERK–MCP-1 pathways and that molecular strategies targeting FAK can effectively uncouple mechanical force from pathologic scar formation."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 7,
+          "doc_id": 2272614,
+          "title": "Reduced NF1 expression confers resistance to EGFR inhibition in lung cancer.",
+          "abstract": [
+            "Activating mutations in the EGF receptor (EGFR) are associated with clinical responsiveness to EGFR tyrosine kinase inhibitors (TKI), such as erlotinib and gefitinib.",
+            "However, resistance eventually arises, often due to a second EGFR mutation, most commonly T790M.",
+            "Through a genome-wide siRNA screen in a human lung cancer cell line and analyses of murine mutant EGFR-driven lung adenocarcinomas, we found that erlotinib resistance was associated with reduced expression of neurofibromin, the RAS GTPase-activating protein encoded by the NF1 gene.",
+            "Erlotinib failed to fully inhibit RAS-ERK signaling when neurofibromin levels were reduced.",
+            "Treatment of neurofibromin-deficient lung cancers with a MAP-ERK kinase (MEK) inhibitor restored sensitivity to erlotinib.",
+            "Low levels of NF1 expression were associated with primary and acquired resistance of lung adenocarcinomas to EGFR TKIs in patients.",
+            "These findings identify a subgroup of patients with EGFR-mutant lung adenocarcinoma who might benefit from combination therapy with EGFR and MEK inhibitors."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 8,
+          "doc_id": 22621251,
+          "title": "Ly6Chi monocytes direct alternatively activated profibrotic macrophage regulation of lung fibrosis.",
+          "abstract": [
+            "RATIONALE Idiopathic pulmonary fibrosis (IPF) is a devastating disease.",
+            "Antiinflammatory therapies, including corticosteroids, are of no benefit.",
+            "The role of monocytes and macrophages is therefore controversial.   \n",
+            "OBJECTIVES To define the role of monocytes and macrophages during lung fibrogenesis and resolution, and explore the phenotype of the cells involved.   \n",
+            "METHODS We used multiple in vivo depletional strategies, backed up by adoptive transfer techniques.",
+            "Further studies were performed on samples from patients with IPF.   \n",
+            "MEASUREMENTS AND MAIN RESULTS Depletion of lung macrophages during fibrogenesis reduced pulmonary fibrosis as measured by lung collagen (P = 0.0079); fibrosis score (P = 0.0051); and quantitative polymerase chain reaction for surrogate markers of fibrosis Col1 (P = 0.0083) and a-smooth muscle actin (P = 0.0349).",
+            "There was an associated reduction in markers of the profibrotic alternative macrophage activation phenotype, Ym1 (P = 0.0179), and Arginase 1.",
+            "The alternative macrophage marker CD163 was expressed on lung macrophages from patients with IPF.",
+            "Depletion of Ly6Chi circulating monocytes reduced pulmonary fibrosis (P = 0.0052) and the number of Ym1- positive alternatively activated lung macrophages (P = 0.0310).",
+            "Their adoptive transfer during fibrogenesis exacerbated fibrosis (P = 0.0304); however, adoptively transferred CD45.1 Ly6Chi cells were not found in the lungs of recipient CD45.2 mice.   \n",
+            "CONCLUSIONS We demonstrate the importance of circulating monocytes and lung macrophages during pulmonary fibrosis, and emphasize the importance of the alternatively activated macrophage phenotype.",
+            "We show that Ly6Chi monocytes facilitate the progression of pulmonary fibrosis, but are not obviously engrafted into lungs thereafter.",
+            "Finally, we provide empirical data to suggest that macrophages may have a resolution-promoting role during the reversible phase of bleomycin-induced pulmonary fibrosis."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 9,
+          "doc_id": 3419709,
+          "title": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+          "abstract": [
+            "Nonalcoholic fatty liver disease (NAFLD) is a growing worldwide epidemic and an important risk factor for the development of insulin resistance, type 2 diabetes, nonalcoholic steatohepatitis (NASH), and hepatic cellular carcinoma (HCC).",
+            "Despite the prevalence of NAFLD, lifestyle interventions involving exercise and weight loss are the only accepted treatments for this disease.",
+            "Over the last decade, numerous experimental compounds have been shown to improve NAFLD in preclinical animal models, and many of these therapeutics have been shown to increase the activity of the cellular energy sensor AMP-activated protein kinase (AMPK).",
+            "Because AMPK activity is reduced by inflammation, obesity, and diabetes, increasing AMPK activity has been viewed as a viable therapeutic strategy to improve NAFLD.",
+            "In this review, we propose three primary mechanisms by which AMPK activation may improve NAFLD.",
+            "In addition, we examine the mechanisms by which AMPK is activated.",
+            "Finally, we identify 27 studies that have used AMPK activators to reduce NAFLD.",
+            "Future considerations for studies examining the relationship between AMPK and NAFLD are highlighted."
+          ],
+          "gold": false
+        },
+        {
+          "rank": 10,
+          "doc_id": 1727042,
+          "title": "Matrix Remodeling Promotes Pulmonary Hypertension through Feedback Mechanoactivation of the YAP/TAZ-miR-130/301 Circuit.",
+          "abstract": [
+            "Pulmonary hypertension (PH) is a deadly vascular disease with enigmatic molecular origins.",
+            "We found that vascular extracellular matrix (ECM) remodeling and stiffening are early and pervasive processes that promote PH.",
+            "In multiple pulmonary vascular cell types, such ECM stiffening induced the microRNA-130/301 family via activation of the co-transcription factors YAP and TAZ.",
+            "MicroRNA-130/301 controlled a PPAR?-APOE-LRP8 axis, promoting collagen deposition and LOX-dependent remodeling and further upregulating YAP/TAZ via a mechanoactive feedback loop.",
+            "In turn, ECM remodeling controlled pulmonary vascular cell crosstalk via such mechanotransduction, modulation of secreted vasoactive effectors, and regulation of associated microRNA pathways.",
+            "In vivo, pharmacologic inhibition of microRNA-130/301, APOE, or LOX activity ameliorated ECM remodeling and PH.",
+            "Thus, ECM remodeling, as controlled by the YAP/TAZ-miR-130/301 feedback circuit, is an early PH trigger and offers combinatorial therapeutic targets for this devastating disease."
+          ],
+          "gold": false
+        }
+      ]
+    }
+  }
+]

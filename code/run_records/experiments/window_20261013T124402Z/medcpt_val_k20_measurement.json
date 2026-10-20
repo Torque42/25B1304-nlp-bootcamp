@@ -1,0 +1,19 @@
+{
+  "pairs": 4028,
+  "fresh_inference_sec": 95.35669749998488,
+  "pairs_per_sec": 42.241395786600506,
+  "cpu_mps_max_abs_difference": 2.86102294921875e-06,
+  "model": {
+    "kind": "reranker",
+    "source": "ncbi/MedCPT-Cross-Encoder",
+    "revision": "71caf65d4927987813984f54c284405a13fcca49",
+    "parameters": 109483009,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 1.6633610839489847,
+    "license": "public-domain",
+    "authors_input": "query, title+abstract; pair max512; raw scalar relevance logits"
+  }
+}

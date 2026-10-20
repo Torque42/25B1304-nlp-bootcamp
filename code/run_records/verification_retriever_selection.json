@@ -1,0 +1,5 @@
+{
+  "winner": "hybrid",
+  "selected_on": "validation nDCG@10",
+  "frozen_before_eval": true
+}

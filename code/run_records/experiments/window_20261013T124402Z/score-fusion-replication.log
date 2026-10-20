@@ -1,0 +1,1 @@
+Replicated score fusion {'method': 'score_fusion', 'normalization': 'top100_minmax', 'weights': [0.375, 0.375, 0.25], 'components': ['bm25', 'scientific', 'general'], 'clip_normalized_scores': False} 0.8960605345428715

@@ -1,0 +1,8 @@
+{
+  "revision": "71caf65d4927987813984f54c284405a13fcca49",
+  "inputs": "47da5ec1e68a180f911a23d4017b6a3b0d9e8b3ece18dc6516b9dff253d50959",
+  "parameters": 109483009,
+  "pair_order": "claim, article",
+  "max_length": 512,
+  "truncation": "longest_first"
+}

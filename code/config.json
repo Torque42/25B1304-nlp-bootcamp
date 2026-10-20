@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "model_revisions": {
+    "general": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "query": "d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc",
+    "article": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+    "reranker": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "nli": "fa2804872c3b4bd748f38c0185cc85775361e735"
+  },
+  "identity": {
+    "name": "Ayush Agrawal",
+    "roll_no": "25B1304"
+  },
+  "implementation_start_utc": "2026-10-13T11:04:52Z",
+  "optional_experiments": [
+    {
+      "experiment": "NLI top10 versus top5, shared threshold sweep",
+      "declared_before_extension": true,
+      "reason": "Mandatory predictions now exist; compare the specified bounded candidate extension on validation only."
+    }
+  ]
+}

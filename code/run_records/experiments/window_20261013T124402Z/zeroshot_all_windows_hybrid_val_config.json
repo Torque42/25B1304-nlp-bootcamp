@@ -1,0 +1,11 @@
+{
+  "name": "zeroshot_all_windows",
+  "mode": "all_windows",
+  "split": "val",
+  "system": "hybrid",
+  "k": 10,
+  "checkpoint_sha256": "fa2804872c3b4bd748f38c0185cc85775361e735",
+  "input_sha256": "a5744c4fdb52613b433073794ad434c56a9f311733649074bb60617f79e58531",
+  "max_length": 512,
+  "truncation": "only_first"
+}

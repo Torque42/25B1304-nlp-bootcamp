@@ -1,0 +1,11 @@
+{
+  "name": "finetuned_lexical_windows",
+  "mode": "lexical_windows",
+  "split": "val",
+  "system": "hybrid",
+  "k": 10,
+  "checkpoint_sha256": "32ef8cbca290357f0901cb6c5cec0254729b21ed371cd9c4c22159a70420929a",
+  "input_sha256": "edbf432a7d8e79454b02b5f17b1098d51db9624e448e18e80fbeb06746916c85",
+  "max_length": 512,
+  "truncation": "only_first"
+}

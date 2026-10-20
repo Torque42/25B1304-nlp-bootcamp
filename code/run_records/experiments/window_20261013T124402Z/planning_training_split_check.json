@@ -1,0 +1,22 @@
+{
+  "finetuned_full": {
+    "examples": 1486,
+    "class_counts": {
+      "NEUTRAL": 1046,
+      "CONTRADICT": 150,
+      "SUPPORT": 290
+    },
+    "train_only": true,
+    "neutral_excludes_all_known_gold": true
+  },
+  "finetuned_lexical_windows": {
+    "examples": 1486,
+    "class_counts": {
+      "NEUTRAL": 1046,
+      "CONTRADICT": 150,
+      "SUPPORT": 290
+    },
+    "train_only": true,
+    "neutral_excludes_all_known_gold": true
+  }
+}

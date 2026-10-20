@@ -1,0 +1,42 @@
+{
+  "name": "",
+  "roll_no": "",
+  "seed": 0,
+  "gpu_used": "",
+  "task1": {
+    "bm25_settings": "",
+    "val_ndcg10": null
+  },
+  "task2": {
+    "general_model": "",
+    "scientific_model": "",
+    "val_ndcg10_general": null,
+    "val_ndcg10_scientific": null,
+    "index_time_sec": {"general": null, "scientific": null},
+    "query_latency_ms": {"general": null, "scientific": null},
+    "memory_mb": {"general": null, "scientific": null}
+  },
+  "task3": {
+    "hybrid_method": "",
+    "reranker_model": "",
+    "rerank_top_k": null,
+    "val_ndcg10_hybrid": null,
+    "val_ndcg10_rerank": null,
+    "rerank_query_latency_ms": null
+  },
+  "task4": {
+    "base_model": "",
+    "val_ndcg10_random_negatives": null,
+    "val_ndcg10_hard_negatives": null
+  },
+  "task5": {
+    "retriever_used": "",
+    "nli_model": "",
+    "zero_shot_or_finetuned": "",
+    "val_f1": null
+  },
+  "report_q1": {
+    "bm25_wins": [null, null],
+    "general_wins": [null, null]
+  }
+}

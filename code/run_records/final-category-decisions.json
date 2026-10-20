@@ -1,0 +1,520 @@
+{
+  "6": {
+    "claim_id": 6,
+    "category": "entity_mismatch",
+    "reason": "The extra bed-sharing paper measures bed-sharing-associated SIDS risk, not the proportion of SIDS deaths before six months. Outcome, population denominator and age comparison do not match; no arithmetic failure is established.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "34": {
+    "claim_id": 34,
+    "category": "other",
+    "reason": "Gold folate trial was sent to NLI but missed; a different folic-acid trial was labeled SUPPORT and may be relevant but is unannotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "55": {
+    "claim_id": 55,
+    "category": "other",
+    "reason": "Gold AMPK/metformin lung-fibrosis paper reached NLI and states lower fibrotic activity, yet the verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "61": {
+    "claim_id": 61,
+    "category": "other",
+    "reason": "The gold ART paper is correct. The extra financing paper explicitly says ART reduces HIV transmission; its extra prediction is annotation-sensitive, not demonstrably unrelated merely because its main topic is financing.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "63": {
+    "claim_id": 63,
+    "category": "other",
+    "reason": "Gold NEI; ATR checkpoint article plausibly supports DNA-damage sensing, exposing a possible annotation gap rather than a retrieval miss.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "64": {
+    "claim_id": 64,
+    "category": "other",
+    "reason": "Gold NEI; ATM/ATR papers plausibly contradict the no-role claim, but these documents are not annotated evidence.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "88": {
+    "claim_id": 88,
+    "category": "other",
+    "reason": "Gold macrophage self-maintenance paper reached NLI but was missed; two alternative macrophage papers were labeled SUPPORT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "98": {
+    "claim_id": 98,
+    "category": "numerical",
+    "reason": "The fully visible result says apo(a) fractional clearance rate increased 24.6%; the claim says it decreased and the same document was labeled SUPPORT. Scalar direction-of-change error; later truncation does not remove this decisive sentence.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "106": {
+    "claim_id": 106,
+    "category": "entity_mismatch",
+    "reason": "Extra contradiction papers concern ambulatory blood-pressure treatment/profiles, not accuracy of hypertension diagnosis; one gold diagnostic paper was missed.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "112": {
+    "claim_id": 112,
+    "category": "other",
+    "reason": "The visible paper describes both renal benefits and functional renal insufficiency as an adverse effect. SUPPORT and CONTRADICT scores nearly tie and the model abstains; a specific missed negation is not established.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "119": {
+    "claim_id": 119,
+    "category": "other",
+    "reason": "Gold migraine review was correct; extra amitriptyline paper also discusses migraine prophylaxis but is not annotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "155": {
+    "claim_id": 155,
+    "category": "other",
+    "reason": "Gold BCL-2 paper reached NLI but was rejected; annotated sentence discusses effects of BCL-2 elimination rather than the claim phrasing.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "167": {
+    "claim_id": 167,
+    "category": "other",
+    "reason": "Gold bariatric-surgery meta-analysis was correct; extra postoperative-psychological-outcome paper was labeled SUPPORT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "189": {
+    "claim_id": 189,
+    "category": "negation",
+    "reason": "The visible sentence says 10E8 did not bind phospholipids, corresponding to the gold no-affinity statement; the model abstains. Classify the observable absence-of-binding relation as negation. The claim spells the antibody 10EB, an additional uncertainty; this category does not prove a model-internal cause.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "235": {
+    "claim_id": 235,
+    "category": "other",
+    "reason": "Gold chicken study states somatic sex identity is cell autonomous; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "256": {
+    "claim_id": 256,
+    "category": "other",
+    "reason": "Gold age-specific prevalence evidence reached NLI, but was rejected; a specifically numerical cause is not established.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "264": {
+    "claim_id": 264,
+    "category": "other",
+    "reason": "Gold NETosis paper links citrullinated antigens, autoantibodies and inflammation, but verifier assigned the opposite label.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "296": {
+    "claim_id": 296,
+    "category": "entity_mismatch",
+    "reason": "Gold cyclin-A destruction paper was correct; extra CONTRADICT paper concerns Cyclin A2 control of Mre11 translation, a different mechanism.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "313": {
+    "claim_id": 313,
+    "category": "entity_mismatch",
+    "reason": "The extra paper reports contig count and between-species noncoding-sequence lengths, not assembled-versus-unassembled contig lengths. It substitutes different objects and comparisons.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "341": {
+    "claim_id": 341,
+    "category": "other",
+    "reason": "Gold surgery-versus-conventional diabetes-remission trial was correct; extra bariatric-surgery cohort was also marked CONTRADICT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "349": {
+    "claim_id": 349,
+    "category": "other",
+    "reason": "Gold ovarian-reserve paper reached NLI; several evidence sentences were truncated and the classifier abstained. A numerical cause cannot be isolated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "355": {
+    "claim_id": 355,
+    "category": "other",
+    "reason": "Both gold Drosophila boundary papers were sent to NLI but missed; an unannotated imaginal-disc actomyosin paper was labeled SUPPORT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "375": {
+    "claim_id": 375,
+    "category": "entity_mismatch",
+    "reason": "Gold cell-free mtDNA mortality paper was correct; extra CONTRADICT paper discusses mitochondrial DNA in neutrophil traps, not mortality.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "381": {
+    "claim_id": 381,
+    "category": "other",
+    "reason": "Gold gene-environment paper was correct; two alternative breast-cancer papers on prenatal environment/birthweight were labeled SUPPORT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "382": {
+    "claim_id": 382,
+    "category": "other",
+    "reason": "Gold progerin-induced aging study reached NLI but was rejected; the claim paraphrases progerin expression broadly as adding molecules.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "413": {
+    "claim_id": 413,
+    "category": "other",
+    "reason": "Gold APOE4/dementia paper reached NLI but was rejected; annotated association depends on reproductive-period strata and text visibility is limited.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "417": {
+    "claim_id": 417,
+    "category": "other",
+    "reason": "Gold reproductive-period paper was rejected; its annotated sentence addresses dementia risk among carriers rather than directly proving shorter estrogen exposure.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "430": {
+    "claim_id": 430,
+    "category": "other",
+    "reason": "Gold FOXO paper reached NLI but was rejected; annotated sentence concerns Sir2 tipping FOXO away from apoptosis, not direct ROS inhibition.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "463": {
+    "claim_id": 463,
+    "category": "other",
+    "reason": "Gold metastasis-model paper was missed after NLI; three extra papers on molecular profiling/CTCs/ctDNA were labeled SUPPORT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "483": {
+    "claim_id": 483,
+    "category": "other",
+    "reason": "Gold H. pylori mutation paper was correct; extra mouse gastric-mutation study is related but unannotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "490": {
+    "claim_id": 490,
+    "category": "other",
+    "reason": "Gold NEI; HNF4A article studies macrosomia but supplied abstract gives no result establishing the association.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "523": {
+    "claim_id": 523,
+    "category": "numerical",
+    "reason": "Although the annotated snippets emphasize mice, the full visible abstract explicitly reports that plasma L-carnitine predicts increased cardiovascular-event risk in 2,595 human subjects with high TMAO. This opposes the claimed negative correlation. The verifier abstained on this direction comparison; species mismatch is not the appropriate diagnosis.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "531": {
+    "claim_id": 531,
+    "category": "retrieval_miss",
+    "reason": "Two annotated embryonic-stem-cell documents rank 8 and 11, beyond the top-5 NLI pool; a different unannotated supporting document was emitted.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "537": {
+    "claim_id": 537,
+    "category": "negation",
+    "reason": "Visible evidence says neuronal activation is necessary for panic and silencing/antagonism blocks it, whereas the claim says the neurons suppress panic. The same document is labeled SUPPORT. Negation category covers this reversal of activation versus inhibition of the causal intervention.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "541": {
+    "claim_id": 541,
+    "category": "other",
+    "reason": "Both gold hypothalamic-glutamate papers were predicted correctly; extra astrocyte-glutamate paper was also labeled CONTRADICT.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "559": {
+    "claim_id": 559,
+    "category": "retrieval_miss",
+    "reason": "Only annotated spatial-segregation paper ranks 54 and never reached the top-5 NLI verifier.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "566": {
+    "claim_id": 566,
+    "category": "numerical",
+    "reason": "The visible evidence says deficient cells are hypersensitive to high iron, opposite the claimed reduced sensitivity. The model favors SUPPORT but abstains at the conditional threshold. The distinguishing error is scalar direction, not the shared absence-of-pathway condition.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "594": {
+    "claim_id": 594,
+    "category": "numerical",
+    "reason": "Gold heart-failure cohort reports no change over time in women, contradicting the claimed 10% increase; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "616": {
+    "claim_id": 616,
+    "category": "other",
+    "reason": "Gold NEI; retrotransposon papers describe insertional mutagenesis/cancer, making the no-mutation claim plausibly contradicted but unannotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "645": {
+    "claim_id": 645,
+    "category": "other",
+    "reason": "The visible evidence links low folate/B6 intake to high homocysteine. Applying this inversely to the intake claim requires inference; the model predominantly predicts neutral. No explicit missed negation is demonstrated.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "669": {
+    "claim_id": 669,
+    "category": "entity_mismatch",
+    "reason": "The gold differentiation paper is correct. The extra paper does mention KLF4, but its necessity concerns self-renewal/proliferation of already differentiated MafB/c-Maf-deficient cells, rather than the claimed requirement for myeloid differentiation. Biological-process mismatch.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "673": {
+    "claim_id": 673,
+    "category": "other",
+    "reason": "The gold paper is correct. One extra paper explicitly calls LDL a causative agent of coronary disease; the other discusses lipid treatment and residual risk. These are unannotated extra predictions; an incorrect causal direction is not established.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "682": {
+    "claim_id": 682,
+    "category": "other",
+    "reason": "Gold FGF21-deficiency paper reached NLI and reports premature death in mice; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "738": {
+    "claim_id": 738,
+    "category": "retrieval_miss",
+    "reason": "One annotated MICAL paper ranks 22, beyond top-5 NLI, so exact gold-set recovery was impossible even though other gold papers were examined.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "751": {
+    "claim_id": 751,
+    "category": "other",
+    "reason": "Gold MVP/miR-193a paper explicitly links exosomal sorting to tumor progression; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "761": {
+    "claim_id": 761,
+    "category": "other",
+    "reason": "Gold NEI; three MeCP2 papers on dendritic/spine/neuronal maturation were marked SUPPORT, suggesting an annotation-sensitive broad claim.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "766": {
+    "claim_id": 766,
+    "category": "entity_mismatch",
+    "reason": "Gold obesity-drug adverse-effects paper was correct; extras discuss olanzapine (antipsychotic) and diabetes/cancer drugs rather than anti-obesity medication.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "780": {
+    "claim_id": 780,
+    "category": "other",
+    "reason": "Two gold IFN-gamma-deficiency myocarditis papers reached NLI and report severe disease, but verifier abstained on both.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "815": {
+    "claim_id": 815,
+    "category": "other",
+    "reason": "Gold RIM1 paper explicitly says rim1 mutations reduce IME1 expression; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "825": {
+    "claim_id": 825,
+    "category": "other",
+    "reason": "Gold N348I/nevirapine paper was correct; extra mechanistic N348I paper also supports resistance but is unannotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "886": {
+    "claim_id": 886,
+    "category": "entity_mismatch",
+    "reason": "The gold survey was correctly labeled CONTRADICT; the error is an extra SUPPORT prediction from a sciatica-treatment trial, which does not establish surgical-trial discontinuation rates.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "895": {
+    "claim_id": 895,
+    "category": "entity_mismatch",
+    "reason": "Gold NEI; predicted paper studies malaria retinopathy in Bangladeshi adults, not Gabonese children with SFM or plasma lactate.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "898": {
+    "claim_id": 898,
+    "category": "other",
+    "reason": "Gold NEI; two oxidized-DNA papers describe STING-dependent sensing, so support predictions may reflect incomplete annotation.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "954": {
+    "claim_id": 954,
+    "category": "entity_mismatch",
+    "reason": "Gold pioglitazone/prostate-cancer paper was correct; extra paper concerns bladder-cancer risk, a different cancer site.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "962": {
+    "claim_id": 962,
+    "category": "other",
+    "reason": "Two gold mitochondrial-RNA-granule papers were correct; one gold DDX28 paper was missed and an unannotated RNA-granule paper was emitted.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "984": {
+    "claim_id": 984,
+    "category": "entity_mismatch",
+    "reason": "Gold PTENP1 pseudogene paper was correct; extra paper concerns PTEN pathway activity and prognosis, not PTENP1 regulation.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1003": {
+    "claim_id": 1003,
+    "category": "retrieval_miss",
+    "reason": "An annotated RAD52/BIR paper ranks 6, beyond top-5 NLI; other gold papers were also missed and an SSA paper was mislabeled.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1009": {
+    "claim_id": 1009,
+    "category": "other",
+    "reason": "Gold TLX1/T-ALL article suggests RUNX1 tumor-suppressor role, but the claim adds downregulation or mutation not directly in annotated text; verifier abstained.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1028": {
+    "claim_id": 1028,
+    "category": "other",
+    "reason": "First gold IL2RA/Treg paper was correct; second gold IL-2 reduction/Treg paper was sent to NLI but rejected.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1073": {
+    "claim_id": 1073,
+    "category": "numerical",
+    "reason": "Gold sepsis study reports declining in-hospital mortality and no significant death-or-hospice trend, opposite a rise from 2009\u20132014; same paper mislabeled SUPPORT.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1115": {
+    "claim_id": 1115,
+    "category": "other",
+    "reason": "The decisive no-significant-difference result is visible despite later truncation. The model abstains with nearly tied polarity scores. Statistical non-significance versus the broad no-superiority claim and threshold uncertainty prevent isolating a specific negation failure.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1125": {
+    "claim_id": 1125,
+    "category": "other",
+    "reason": "Gold ocular-inflammation study finds most immunosuppressants do not raise cancer mortality but mentions a TNF-inhibitor exception; verifier abstained.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1148": {
+    "claim_id": 1148,
+    "category": "other",
+    "reason": "The gold sentence containing the 10% statistic was not visible to the classifier because of truncation; this is an input-coverage failure, not demonstrated numerical reasoning failure.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1223": {
+    "claim_id": 1223,
+    "category": "other",
+    "reason": "Gold malaria paper says innate restriction saturates with dose; inference that small doses are controlled was not accepted.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1235": {
+    "claim_id": 1235,
+    "category": "other",
+    "reason": "Gold NEI; brown-fat review says browning increases energy expenditure, plausibly contradicting the decreased-potential claim.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1246": {
+    "claim_id": 1246,
+    "category": "other",
+    "reason": "The gold mortality statistics require contextual interpretation of the broad hospitable-environment claim; the classifier abstained, with no isolated numerical error established.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1249": {
+    "claim_id": 1249,
+    "category": "other",
+    "reason": "Gold childhood-fracture study places incidence peak at puberty, not toddlerhood; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1260": {
+    "claim_id": 1260,
+    "category": "other",
+    "reason": "Gold CYP2D6 outcome paper was rejected; extra genetic-polymorphism paper concerns tamoxifen metabolite levels, not treatment outcome directly.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1261": {
+    "claim_id": 1261,
+    "category": "negation",
+    "reason": "Visible evidence says oncogene-induced ROS causes DNA damage, whereas the claim attributes instability to ROS removal. The same paper is labeled SUPPORT. Negation category covers reversal of production versus removal in this causal chain.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1291": {
+    "claim_id": 1291,
+    "category": "other",
+    "reason": "Gold NEI; HNF4A article identifies MODY gene but supplied abstract has no diabetes-risk comparison, so contradiction overreaches.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1311": {
+    "claim_id": 1311,
+    "category": "other",
+    "reason": "Gold lincRNA-p21 translation paper reached NLI and describes trans-acting regulation, yet verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1324": {
+    "claim_id": 1324,
+    "category": "other",
+    "reason": "Gold fibronectin study says FN reconstitution restores aged-muscle regeneration; verifier abstained.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1390": {
+    "claim_id": 1390,
+    "category": "other",
+    "reason": "Gold modified-tRNA paper was correct; extra yeast wobble-nucleoside paper was labeled SUPPORT but is unannotated.",
+    "previously_uncertain": true,
+    "review_status": "final_assistant_decision_user_delegated"
+  },
+  "1404": {
+    "claim_id": 1404,
+    "category": "other",
+    "reason": "One gold A20 xenograft paper was correct; second gold A20-targeting xenograft paper reached NLI but was rejected.",
+    "previously_uncertain": false,
+    "review_status": "final_assistant_decision_user_delegated"
+  }
+}

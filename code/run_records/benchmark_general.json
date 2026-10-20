@@ -1,0 +1,22 @@
+{
+  "kind": "general",
+  "source": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "parameters": 22713216,
+  "device": "mps",
+  "dtype": "float32",
+  "max_length": 256,
+  "pooling": "mean_l2",
+  "load_time_sec": 18.274143333081156,
+  "finite_forward": true,
+  "cpu_mps_max_abs_difference": 1.341104507446289e-07,
+  "comparison_absolute_tolerance": 0.01,
+  "benchmark_items": 32,
+  "inference_sec": 0.21197141706943512,
+  "items_per_sec": 150.96374993576524,
+  "peak_rss_mb": 467.5,
+  "finite_backward_optimizer_step": true,
+  "smoke_loss": 0.9179957509040833,
+  "mps_allocated_bytes": 241532672,
+  "mps_driver_bytes": 1393524736
+}

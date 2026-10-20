@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "hybrid": {
+    "method": "score_fusion",
+    "normalization": "top100_minmax",
+    "weights": [0.375, 0.375, 0.25],
+    "components": ["bm25", "scientific", "general"],
+    "clip_normalized_scores": false
+  },
+  "reranker": {
+    "model": "ncbi/MedCPT-Cross-Encoder",
+    "revision": "71caf65d4927987813984f54c284405a13fcca49",
+    "license": "public-domain",
+    "source": "https://huggingface.co/ncbi/MedCPT-Cross-Encoder",
+    "authors_input": "query, title+abstract; pair max512; raw scalar relevance logits",
+    "validation_cutoffs": [20, 50]
+  },
+  "verification": {
+    "base_model": "cross-encoder/nli-deberta-v3-small",
+    "training_modes": ["full", "lexical_windows"],
+    "epochs_per_mode": 1,
+    "effective_batch_size": 8,
+    "micro_batch_size": 2,
+    "training_padding": "fixed512",
+    "inference_padding": "fixed512",
+    "inference_batch_size": 2,
+    "neutral_labels": "assumed nongold pairs, excluded complete claim gold sets",
+    "selection": "exact triple micro F1 on all162 validation claims; precision, lowercandidatecount, declared config order breakties"
+  }
+}

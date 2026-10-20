@@ -1,0 +1,292 @@
+{
+  "paired_gain": 0.012746642273689934,
+  "descriptive_gain_95ci": [
+    -0.010493674362438197,
+    0.0362392504306462
+  ],
+  "fivefold_oof_ndcg_by_seed": [
+    0.8827874316355883,
+    0.8833125375086966,
+    0.883393834580978,
+    0.8831634434707212,
+    0.8872847802240311
+  ],
+  "folds": [
+    {
+      "seed": 42,
+      "fold": 0,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.8764088090469276
+    },
+    {
+      "seed": 42,
+      "fold": 1,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9501294537040159
+    },
+    {
+      "seed": 42,
+      "fold": 2,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.9272089254686464
+    },
+    {
+      "seed": 42,
+      "fold": 3,
+      "normalization": "top200_minmax",
+      "weights": [
+        0.375,
+        0.5,
+        0.125
+      ],
+      "heldout_ndcg": 0.7728251186015278
+    },
+    {
+      "seed": 42,
+      "fold": 4,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.8876685952896172
+    },
+    {
+      "seed": 43,
+      "fold": 0,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9078367343551954
+    },
+    {
+      "seed": 43,
+      "fold": 1,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.8879257404985271
+    },
+    {
+      "seed": 43,
+      "fold": 2,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9235426748461522
+    },
+    {
+      "seed": 43,
+      "fold": 3,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.875,
+        0.0
+      ],
+      "heldout_ndcg": 0.9017989114616831
+    },
+    {
+      "seed": 43,
+      "fold": 4,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.7942908074844729
+    },
+    {
+      "seed": 44,
+      "fold": 0,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9347034778969108
+    },
+    {
+      "seed": 44,
+      "fold": 1,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.833652275936791
+    },
+    {
+      "seed": 44,
+      "fold": 2,
+      "normalization": "top20_minmax",
+      "weights": [
+        0.25,
+        0.75,
+        0.0
+      ],
+      "heldout_ndcg": 0.9199084414074422
+    },
+    {
+      "seed": 44,
+      "fold": 3,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.8309292205333314
+    },
+    {
+      "seed": 44,
+      "fold": 4,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.8953324407820373
+    },
+    {
+      "seed": 45,
+      "fold": 0,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.875,
+        0.0
+      ],
+      "heldout_ndcg": 0.8410293900041108
+    },
+    {
+      "seed": 45,
+      "fold": 1,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.929418217181238
+    },
+    {
+      "seed": 45,
+      "fold": 2,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.5,
+        0.375
+      ],
+      "heldout_ndcg": 0.8992032378826935
+    },
+    {
+      "seed": 45,
+      "fold": 3,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9367808600133333
+    },
+    {
+      "seed": 45,
+      "fold": 4,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.81139189577064
+    },
+    {
+      "seed": 46,
+      "fold": 0,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9338541985189915
+    },
+    {
+      "seed": 46,
+      "fold": 1,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.8147183690060933
+    },
+    {
+      "seed": 46,
+      "fold": 2,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.9188861043263115
+    },
+    {
+      "seed": 46,
+      "fold": 3,
+      "normalization": "zscore",
+      "weights": [
+        0.125,
+        0.625,
+        0.25
+      ],
+      "heldout_ndcg": 0.8986715881680813
+    },
+    {
+      "seed": 46,
+      "fold": 4,
+      "normalization": "top100_minmax",
+      "weights": [
+        0.375,
+        0.375,
+        0.25
+      ],
+      "heldout_ndcg": 0.8680760497532987
+    }
+  ],
+  "caveat": "Validation selection optimism remains; descriptive bootstrap, not independent test. Repeated folds overlap and are not independent estimates."
+}

@@ -1,0 +1,23 @@
+{
+  "elapsed_sec": 53.435124665964395,
+  "window_pairs": 1620,
+  "document_pairs": 1620,
+  "model": {
+    "kind": "nli",
+    "source": "/Users/ayush/code/projects/nlp_interiit_ps/artifacts/experiments/window_20261013T124402Z/checkpoints/finetuned_full",
+    "revision": null,
+    "parameters": 141897219,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 0.34648450021632016,
+    "label_mapping": {
+      "0": "contradiction",
+      "1": "entailment",
+      "2": "neutral"
+    }
+  },
+  "mode": "full",
+  "fresh_inference": true
+}

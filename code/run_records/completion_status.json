@@ -1,0 +1,9 @@
+{
+  "human_review_complete": false,
+  "delegated_review_complete": true,
+  "review_method": "assistant semantic review explicitly delegated by the user; independently cross-checked by a second assistant",
+  "review_authorization": "review the categories yourself once, with high rigour, and make the final decision",
+  "review_provenance": "code/run_records/final-review-provenance.json",
+  "identity_complete": true,
+  "pending_gates": []
+}

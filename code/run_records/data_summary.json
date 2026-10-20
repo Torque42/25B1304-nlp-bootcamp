@@ -1,0 +1,25 @@
+{
+  "corpus_documents": 5183,
+  "splits": {
+    "train": {
+      "claims": 647,
+      "evidence_bearing": 399,
+      "evidence_pairs": 440
+    },
+    "val": {
+      "claims": 162,
+      "evidence_bearing": 106,
+      "evidence_pairs": 124
+    },
+    "eval": {
+      "claims": 300,
+      "evidence_bearing": 0,
+      "evidence_pairs": 0
+    }
+  },
+  "abstract_sentence_count": {
+    "min": 3,
+    "max": 367,
+    "mean": 8.865907775419641
+  }
+}

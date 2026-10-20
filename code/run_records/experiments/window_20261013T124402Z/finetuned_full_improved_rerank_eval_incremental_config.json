@@ -1,0 +1,11 @@
+{
+  "name": "finetuned_full",
+  "mode": "full",
+  "split": "eval",
+  "system": "improved_rerank",
+  "k": 5,
+  "checkpoint_sha256": "504a831160d1854bee3bae0e83e3401cb165c9c0ed50082ec24aea0f56cad6fa",
+  "input_sha256": "33d1a6546417b874e42a758751af1b29d3d1bb6f34f5fd807c7b7d1e43f2aebc",
+  "max_length": 512,
+  "truncation": "only_first"
+}

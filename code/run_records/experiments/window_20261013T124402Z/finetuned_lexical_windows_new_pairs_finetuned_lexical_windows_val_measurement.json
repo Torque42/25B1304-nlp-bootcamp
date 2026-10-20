@@ -1,0 +1,29 @@
+{
+  "elapsed_sec": 100.48931524999989,
+  "window_pairs": 1746,
+  "document_pairs": 604,
+  "model": {
+    "kind": "nli",
+    "source": "/Users/ayush/code/projects/nlp_interiit_ps/artifacts/experiments/window_20261013T124402Z/checkpoints/finetuned_lexical_windows",
+    "revision": null,
+    "parameters": 141897219,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 0.4344492089999221,
+    "label_mapping": {
+      "0": "contradiction",
+      "1": "entailment",
+      "2": "neutral"
+    },
+    "inference_batch_size": 2,
+    "inference_padding": "fixed max length",
+    "mps_memory_fraction": 0.4,
+    "cache_cleanup": "after every inference batch",
+    "post_cleanup_allocated_bytes": 567593216,
+    "post_cleanup_driver_bytes": 1384890368
+  },
+  "mode": "lexical_windows",
+  "fresh_inference": true
+}

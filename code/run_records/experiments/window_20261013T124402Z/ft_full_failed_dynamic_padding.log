@@ -1,0 +1,37 @@
+finetuned_full 10 / 186 loss 1.1655893325805664 sec 9.670595749979839
+finetuned_full 20 / 186 loss 0.24628788232803345 sec 15.867243624990806
+finetuned_full 30 / 186 loss 0.7355418801307678 sec 22.882695875130594
+finetuned_full 40 / 186 loss 0.5150672197341919 sec 33.05322033399716
+finetuned_full 50 / 186 loss 0.7871483564376831 sec 46.079899167176336
+finetuned_full 60 / 186 loss 0.07444019615650177 sec 57.70818995917216
+finetuned_full 70 / 186 loss 0.3687622845172882 sec 69.38416466698982
+finetuned_full 80 / 186 loss 0.8868032097816467 sec 80.82337537501007
+finetuned_full 90 / 186 loss 0.11921678483486176 sec 89.68255166709423
+finetuned_full 100 / 186 loss 0.08352575451135635 sec 95.54953033407219
+Traceback (most recent call last):
+  File "/Users/ayush/code/projects/nlp_interiit_ps/code/extended_experiments.py", line 155, in <module>
+    elif a.stage=='ft_full':fit_nli('full')
+                            ^^^^^^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/code/extended_experiments.py", line 114, in fit_nli
+    rows=examples[i:i+batch];opt.zero_grad(set_to_none=True);logits=model.forward(model.tokenize([(x['premise'],x['hypothesis']) for x in rows]));loss=torch.nn.functional.cross_entropy(logits,torch.tensor([x['label_id'] for x in rows],device='mps'));assert torch.isfinite(loss);loss.backward();norm=torch.nn.utils.clip_grad_norm_(model.model.parameters(),1);assert torch.isfinite(norm);opt.step();sched.step();sync('mps');losses.append({'step':len(losses)+1,'loss':loss.item(),'batch_size':len(rows)})
+                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py", line 133, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 516, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 81, in _use_grad
+    ret = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 247, in step
+    adam(
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 149, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 949, in adam
+    func(
+  File "/Users/ayush/code/projects/nlp_interiit_ps/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 533, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+             ^^^^^^^^^^^^^^^^^
+RuntimeError: MPS backend out of memory (MPS allocated: 16.02 GiB, other allocations: 14.07 GiB, max allowed: 30.19 GiB). Tried to allocate 375.29 MiB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

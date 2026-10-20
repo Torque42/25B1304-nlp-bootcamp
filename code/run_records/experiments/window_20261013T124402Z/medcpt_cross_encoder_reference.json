@@ -1,0 +1,7 @@
+{
+  "model": "ncbi/MedCPT-Cross-Encoder",
+  "revision": "71caf65d4927987813984f54c284405a13fcca49",
+  "license": "public-domain",
+  "source": "https://huggingface.co/ncbi/MedCPT-Cross-Encoder",
+  "authors_input": "query, title+abstract; pair max512; raw scalar relevance logits"
+}

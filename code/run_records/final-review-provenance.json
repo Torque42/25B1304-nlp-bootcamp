@@ -1,0 +1,31 @@
+{
+  "status": "final",
+  "review_method": "assistant semantic review delegated explicitly by user",
+  "authorization": "review the categories yourself once, with high rigour, and make the final decision",
+  "human_individual_case_review": false,
+  "source_sha256": "0d6c1a09266786fb86a10c10e369227961999cac291471f963885505226dc7a0",
+  "counts": {
+    "entity_mismatch": 11,
+    "other": 51,
+    "numerical": 5,
+    "negation": 3,
+    "retrieval_miss": 4
+  },
+  "changed_category_ids": [
+    6,
+    313,
+    98,
+    112,
+    645,
+    566,
+    523
+  ],
+  "retrieval_miss_fraction": 0.05405405405405406,
+  "prediction_changes": false,
+  "specs_changes": false,
+  "independent_review_reconciled": true,
+  "independent_review_thread": "01a13696-1d41-7442-98e8-e15681948f25",
+  "independent_review_departure": {
+    "523": "numerical: full visible input includes explicit human positive-risk association"
+  }
+}

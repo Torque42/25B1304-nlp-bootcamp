@@ -1,0 +1,17 @@
+{
+  "failed_experiments": [
+    {
+      "name": "ft_full",
+      "status": "failed before complete epoch",
+      "reason": "MPS out of memory with dynamic padding and batch8",
+      "log": "ft_full_failed_dynamic_padding.log"
+    },
+    {
+      "name": "ft_windows",
+      "status": "failed before complete epoch",
+      "reason": "MPS out of memory with dynamic padding and batch8",
+      "log": "ft_windows_failed_dynamic_padding.log"
+    }
+  ],
+  "retry": "fresh original checkpoint; fixed512, microbatch2, accumulation4, cleanup each step; high-watermark protection retained"
+}

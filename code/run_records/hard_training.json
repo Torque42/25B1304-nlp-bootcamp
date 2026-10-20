@@ -1,0 +1,43 @@
+{
+  "config": {
+    "epochs": 1,
+    "batch_size": 16,
+    "optimizer": "AdamW",
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "weight_decay_exclusions": [
+      "bias",
+      "LayerNorm"
+    ],
+    "warmup_steps": 3,
+    "total_steps": 28,
+    "schedule": "linear warmup and decay",
+    "gradient_clip": 1.0,
+    "temperature": 0.05,
+    "loss": "two-candidate cross entropy, positive target zero, no in-batch negatives",
+    "seed": 42,
+    "positives": 440,
+    "excluded_nei": 248,
+    "hard_mining": "equal weight RRF k=60 across BM25 and both pretrained dense top100 lists"
+  },
+  "base_model": {
+    "kind": "general",
+    "source": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "parameters": 22713216,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 256,
+    "pooling": "mean_l2",
+    "load_time_sec": 0.5966449580155313
+  },
+  "initial_state_sha256": "7aabbfe8c597fa7200fcadf131d74f518d087aec6f0429963502f2f31db4d9d4",
+  "final_state_sha256": "6040fca25329adba41e624a3ad04a0dd6c9db2a1efe4453f1e0cbbdac4143d70",
+  "weights_changed": true,
+  "training_time_sec": 8.643251958070323,
+  "epoch_losses": [
+    0.2055613160133362
+  ],
+  "checkpoint": "/Users/ayush/code/projects/nlp_interiit_ps/artifacts/checkpoints/hard/epoch-1",
+  "triplet_sha256": "49a18e93608a0a45254ab54d4b13d6de8a016acc11f33d1bb3dada477182fc42"
+}

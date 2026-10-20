@@ -1,0 +1,11 @@
+{
+  "name": "zeroshot_lexical_windows",
+  "mode": "lexical_windows",
+  "split": "val",
+  "system": "hybrid",
+  "k": 10,
+  "checkpoint_sha256": "fa2804872c3b4bd748f38c0185cc85775361e735",
+  "input_sha256": "edbf432a7d8e79454b02b5f17b1098d51db9624e448e18e80fbeb06746916c85",
+  "max_length": 512,
+  "truncation": "only_first"
+}

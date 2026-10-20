@@ -1,0 +1,23 @@
+{
+  "elapsed_sec": 41.47720616706647,
+  "window_pairs": 4794,
+  "document_pairs": 1620,
+  "model": {
+    "kind": "nli",
+    "source": "cross-encoder/nli-deberta-v3-small",
+    "revision": "fa2804872c3b4bd748f38c0185cc85775361e735",
+    "parameters": 141897219,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 0.6741811251267791,
+    "label_mapping": {
+      "0": "contradiction",
+      "1": "entailment",
+      "2": "neutral"
+    }
+  },
+  "mode": "lexical_windows",
+  "fresh_inference": false
+}

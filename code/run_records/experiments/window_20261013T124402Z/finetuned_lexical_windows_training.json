@@ -1,0 +1,45 @@
+{
+  "mode": "lexical_windows",
+  "model": {
+    "kind": "nli",
+    "source": "cross-encoder/nli-deberta-v3-small",
+    "revision": "fa2804872c3b4bd748f38c0185cc85775361e735",
+    "parameters": 141897219,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 1.036758542060852,
+    "label_mapping": {
+      "0": "contradiction",
+      "1": "entailment",
+      "2": "neutral"
+    }
+  },
+  "checkpoint": "/Users/ayush/code/projects/nlp_interiit_ps/artifacts/experiments/window_20261013T124402Z/checkpoints/finetuned_lexical_windows",
+  "epochs": 1,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "batch_size": 8,
+  "micro_batch_size": 2,
+  "gradient_accumulation": 4,
+  "padding": "fixed 512 during training; dynamic at inference",
+  "allocator_cleanup": "after each effective batch",
+  "warmup_steps": 19,
+  "steps": 186,
+  "seed": 42,
+  "temperature": "ordinary three-class NLI softmax",
+  "examples": 1486,
+  "label_counts": {
+    "NEUTRAL": 1046,
+    "SUPPORT": 290,
+    "CONTRADICT": 150
+  },
+  "neutral_labels_are_assumed": true,
+  "exclude_all_known_gold_documents": true,
+  "training_gold_sentence_indices_used": true,
+  "validation_eval_gold_sentence_indices_used": false,
+  "training_time_sec": 160.78942375001498,
+  "initial_state_sha256": "aea4dedd675527b28bc0db58f94f85e2c9da187e6d226dbbcbfa448e775be5f1",
+  "final_state_sha256": "94dc66b795ea40b57be54cdb1e627d9f19bc5fa5f31558da2e617cbead8f5398"
+}

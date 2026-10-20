@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "cpu": "Apple M4 Pro",
+  "memory_bytes": 25769803776,
+  "torch": "2.8.0",
+  "mps_available": true,
+  "dtype": "float32",
+  "seed": 42,
+  "implementation_start_utc": "2026-10-13T11:04:52Z"
+}

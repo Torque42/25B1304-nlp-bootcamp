@@ -1,0 +1,24 @@
+{
+  "missing_at_start": 6000,
+  "new_completed": 6000,
+  "total_cached": 6000,
+  "elapsed_sec": 309.4387805,
+  "model": {
+    "kind": "reranker",
+    "source": "ncbi/MedCPT-Cross-Encoder",
+    "revision": "71caf65d4927987813984f54c284405a13fcca49",
+    "parameters": 109483009,
+    "device": "mps",
+    "dtype": "float32",
+    "max_length": 512,
+    "pooling": "raw_logits",
+    "load_time_sec": 1.4823176250000074,
+    "inference_batch_size": 2,
+    "inference_padding": "fixed max length",
+    "mps_memory_fraction": 0.4,
+    "cache_cleanup": "after every inference batch",
+    "license": "public-domain",
+    "authors_input": "query, title+abstract; pair max512; raw scalar relevance logits"
+  },
+  "cpu_mps_max_abs_difference": 3.814697265625e-06
+}

@@ -1,0 +1,117 @@
+{
+  "method": "5-fold label-stratified threshold selection on validation, disjoint heldout fold scoring; baseline outputs are fixed. Model itself not retrained.",
+  "folds": [
+    {
+      "configuration": [
+        1,
+        0.01,
+        0.5
+      ],
+      "heldout": {
+        "f1": 0.4166666666666667,
+        "precision": 0.4166666666666667,
+        "tp": 10,
+        "fp": 14,
+        "fn": 14
+      },
+      "selection": {
+        "f1": 0.4262295081967213,
+        "precision": 0.46987951807228917,
+        "tp": 39,
+        "fp": 44,
+        "fn": 61
+      }
+    },
+    {
+      "configuration": [
+        1,
+        0.0,
+        0.5
+      ],
+      "heldout": {
+        "f1": 0.42857142857142855,
+        "precision": 0.375,
+        "tp": 12,
+        "fp": 20,
+        "fn": 12
+      },
+      "selection": {
+        "f1": 0.40869565217391307,
+        "precision": 0.36153846153846153,
+        "tp": 47,
+        "fp": 83,
+        "fn": 53
+      }
+    },
+    {
+      "configuration": [
+        1,
+        0.01,
+        0.5
+      ],
+      "heldout": {
+        "f1": 0.32558139534883723,
+        "precision": 0.35,
+        "tp": 7,
+        "fp": 13,
+        "fn": 16
+      },
+      "selection": {
+        "f1": 0.44680851063829785,
+        "precision": 0.4827586206896552,
+        "tp": 42,
+        "fp": 45,
+        "fn": 59
+      }
+    },
+    {
+      "configuration": [
+        1,
+        0.01,
+        0.5
+      ],
+      "heldout": {
+        "f1": 0.35555555555555557,
+        "precision": 0.38095238095238093,
+        "tp": 8,
+        "fp": 13,
+        "fn": 16
+      },
+      "selection": {
+        "f1": 0.44086021505376344,
+        "precision": 0.47674418604651164,
+        "tp": 41,
+        "fp": 45,
+        "fn": 59
+      }
+    },
+    {
+      "configuration": [
+        1,
+        0.01,
+        0.5
+      ],
+      "heldout": {
+        "f1": 0.5,
+        "precision": 0.5652173913043478,
+        "tp": 13,
+        "fp": 10,
+        "fn": 16
+      },
+      "selection": {
+        "f1": 0.4022346368715084,
+        "precision": 0.42857142857142855,
+        "tp": 36,
+        "fp": 48,
+        "fn": 59
+      }
+    }
+  ],
+  "out_of_fold": {
+    "f1": 0.4098360655737705,
+    "precision": 0.4166666666666667,
+    "tp": 50,
+    "fp": 70,
+    "fn": 74
+  }
+}

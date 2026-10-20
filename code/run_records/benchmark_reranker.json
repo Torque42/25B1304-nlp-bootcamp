@@ -1,0 +1,20 @@
+{
+  "kind": "reranker",
+  "source": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "parameters": 22713601,
+  "device": "mps",
+  "dtype": "float32",
+  "max_length": 512,
+  "pooling": "raw_logits",
+  "load_time_sec": 6.946479541016743,
+  "finite_forward": true,
+  "cpu_mps_max_abs_difference": 9.5367431640625e-07,
+  "comparison_absolute_tolerance": 0.01,
+  "benchmark_items": 32,
+  "inference_sec": 0.32578537496738136,
+  "items_per_sec": 98.22417597230674,
+  "peak_rss_mb": 1211.875,
+  "mps_allocated_bytes": 331795968,
+  "mps_driver_bytes": 1271889920
+}

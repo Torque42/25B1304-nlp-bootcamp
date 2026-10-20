@@ -1,0 +1,17 @@
+{
+  "protected_file_hashes": {
+    "specs.md": "ea62d8e3d45baa7b803d1525b184bfa202fa1a7fb33207c2676da9ef0ca6c01d",
+    "NLP_PS.pdf": "0181b4e1991ad340e91ce5058bf2fe5c845c955783f53966466da109d0e38d95",
+    "check_format.py": "d0bcf41eeaea272c841dfbc4dd8c68343ecd3101674d3c21ad016b90140023e7",
+    "results_template.json": "5af905b55be3bb3346218254e7f228d4ea02fa639b6913218c3951697e4513cd",
+    "data/train_claims.jsonl": "35ebc1e02dd407ebec9b207f7a40fc2796ee9c1c8888bf3eda627299806c411c",
+    "data/val_claims.jsonl": "89b75e0f2034802320e15145a15f3cab791fc50e76bc93ba9a41ec9963a8ebfa",
+    "data/corpus.jsonl": "a8d91655c5d7cd93846053b6d328b02541cef5629c73c9729665f19e81af8c96",
+    "data/eval_claims.jsonl": "4565aa86e380767b17d854605e33ba661d2504fd7953ff588df91d9990796747"
+  },
+  "initial_git_status": "?? specs.md",
+  "code_base_commit": "dcd664498a9b48464addb3c6e7f17abdbd69bcbc",
+  "implementation_start_utc": "2026-10-13T11:04:52Z",
+  "original_spec_preserved": true,
+  "nondeterminism": "Seed 42; eager float32. MPS is not guaranteed bitwise reproducible."
+}

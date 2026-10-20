@@ -1,0 +1,17 @@
+{
+  "status": {
+    "t1_bm25.trec": "OK",
+    "t2_general.trec": "OK",
+    "t2_scientific.trec": "OK",
+    "t3_hybrid.trec": "OK",
+    "t3_rerank.trec": "OK",
+    "t4_random.trec": "OK",
+    "t4_hard.trec": "OK",
+    "val_bm25.trec": "OK",
+    "val_general.trec": "OK",
+    "t5_verification.csv": "OK",
+    "t5_val_verification.csv": "OK",
+    "t5_val_errors.csv": "OK"
+  },
+  "general": []
+}

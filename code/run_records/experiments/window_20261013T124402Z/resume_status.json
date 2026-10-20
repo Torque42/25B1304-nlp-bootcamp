@@ -1,0 +1,6 @@
+{
+  "resumed_utc": "2026-10-13T13:16:58Z",
+  "interruption": "user reported computer shutdown; top50 scores were not fully persisted",
+  "resumable_medcpt_val_pairs": 4028,
+  "new_policy": "one model workload; fixed512, microbatch2, cleanup each batch, atomic score saves; retain watermark"
+}

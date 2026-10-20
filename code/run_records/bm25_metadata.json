@@ -1,0 +1,987 @@
+{
+  "config": {
+    "text": "title_abstract",
+    "k1": 0.9,
+    "b": 0.4,
+    "tokenizer": "lowercase Unicode alphanumeric runs excluding underscore",
+    "idf": "log(1+(N-df+0.5)/(df+0.5))",
+    "query_term_frequency": false
+  },
+  "metrics": {
+    "ndcg10": 0.8365668120474191,
+    "recall100": 0.9905660377358491,
+    "mrr100": 0.8150693732703564,
+    "denominator": 106,
+    "excluded_nei": 56,
+    "per_claim": [
+      {
+        "claim_id": 6,
+        "excluded": true
+      },
+      {
+        "claim_id": 11,
+        "excluded": true
+      },
+      {
+        "claim_id": 20,
+        "excluded": true
+      },
+      {
+        "claim_id": 24,
+        "excluded": true
+      },
+      {
+        "claim_id": 34,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 35,
+        "excluded": true
+      },
+      {
+        "claim_id": 55,
+        "excluded": false,
+        "ndcg10": 0.31546487678572877,
+        "recall100": 1.0,
+        "mrr100": 0.125
+      },
+      {
+        "claim_id": 61,
+        "excluded": false,
+        "ndcg10": 0.5,
+        "recall100": 1.0,
+        "mrr100": 0.3333333333333333
+      },
+      {
+        "claim_id": 63,
+        "excluded": true
+      },
+      {
+        "claim_id": 64,
+        "excluded": true
+      },
+      {
+        "claim_id": 66,
+        "excluded": true
+      },
+      {
+        "claim_id": 68,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 73,
+        "excluded": true
+      },
+      {
+        "claim_id": 82,
+        "excluded": true
+      },
+      {
+        "claim_id": 88,
+        "excluded": false,
+        "ndcg10": 0.31546487678572877,
+        "recall100": 1.0,
+        "mrr100": 0.125
+      },
+      {
+        "claim_id": 98,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 106,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 112,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 119,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 155,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 167,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 176,
+        "excluded": true
+      },
+      {
+        "claim_id": 177,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 181,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 189,
+        "excluded": false,
+        "ndcg10": 0.43067655807339306,
+        "recall100": 1.0,
+        "mrr100": 0.25
+      },
+      {
+        "claim_id": 196,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 211,
+        "excluded": true
+      },
+      {
+        "claim_id": 229,
+        "excluded": true
+      },
+      {
+        "claim_id": 235,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 243,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 256,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 264,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 265,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 286,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 287,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 296,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 301,
+        "excluded": true
+      },
+      {
+        "claim_id": 313,
+        "excluded": true
+      },
+      {
+        "claim_id": 332,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 341,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 349,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 355,
+        "excluded": false,
+        "ndcg10": 0.5249810332008933,
+        "recall100": 1.0,
+        "mrr100": 0.3333333333333333
+      },
+      {
+        "claim_id": 375,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 379,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 381,
+        "excluded": false,
+        "ndcg10": 0.6309297535714575,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 382,
+        "excluded": false,
+        "ndcg10": 0.38685280723454163,
+        "recall100": 1.0,
+        "mrr100": 0.2
+      },
+      {
+        "claim_id": 383,
+        "excluded": true
+      },
+      {
+        "claim_id": 391,
+        "excluded": true
+      },
+      {
+        "claim_id": 392,
+        "excluded": true
+      },
+      {
+        "claim_id": 400,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 406,
+        "excluded": true
+      },
+      {
+        "claim_id": 413,
+        "excluded": false,
+        "ndcg10": 0.3333333333333333,
+        "recall100": 1.0,
+        "mrr100": 0.14285714285714285
+      },
+      {
+        "claim_id": 417,
+        "excluded": false,
+        "ndcg10": 0.5,
+        "recall100": 1.0,
+        "mrr100": 0.3333333333333333
+      },
+      {
+        "claim_id": 418,
+        "excluded": true
+      },
+      {
+        "claim_id": 422,
+        "excluded": true
+      },
+      {
+        "claim_id": 423,
+        "excluded": true
+      },
+      {
+        "claim_id": 425,
+        "excluded": true
+      },
+      {
+        "claim_id": 430,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 1.0,
+        "mrr100": 0.012658227848101266
+      },
+      {
+        "claim_id": 447,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 456,
+        "excluded": true
+      },
+      {
+        "claim_id": 463,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 1.0,
+        "mrr100": 0.029411764705882353
+      },
+      {
+        "claim_id": 479,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 483,
+        "excluded": false,
+        "ndcg10": 0.6309297535714575,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 490,
+        "excluded": true
+      },
+      {
+        "claim_id": 492,
+        "excluded": true
+      },
+      {
+        "claim_id": 494,
+        "excluded": true
+      },
+      {
+        "claim_id": 523,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 531,
+        "excluded": false,
+        "ndcg10": 0.6508205185601091,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 537,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 541,
+        "excluded": false,
+        "ndcg10": 0.20438239758848611,
+        "recall100": 1.0,
+        "mrr100": 0.14285714285714285
+      },
+      {
+        "claim_id": 559,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 0.0,
+        "mrr100": 0
+      },
+      {
+        "claim_id": 562,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 566,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 574,
+        "excluded": true
+      },
+      {
+        "claim_id": 594,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 600,
+        "excluded": false,
+        "ndcg10": 0.6309297535714575,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 601,
+        "excluded": false,
+        "ndcg10": 0.6309297535714575,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 615,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 616,
+        "excluded": true
+      },
+      {
+        "claim_id": 631,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 645,
+        "excluded": false,
+        "ndcg10": 0.3562071871080222,
+        "recall100": 1.0,
+        "mrr100": 0.16666666666666666
+      },
+      {
+        "claim_id": 650,
+        "excluded": true
+      },
+      {
+        "claim_id": 655,
+        "excluded": true
+      },
+      {
+        "claim_id": 669,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 670,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 673,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 676,
+        "excluded": true
+      },
+      {
+        "claim_id": 682,
+        "excluded": false,
+        "ndcg10": 0.5,
+        "recall100": 1.0,
+        "mrr100": 0.3333333333333333
+      },
+      {
+        "claim_id": 687,
+        "excluded": true
+      },
+      {
+        "claim_id": 734,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 738,
+        "excluded": false,
+        "ndcg10": 0.5307212739772434,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 747,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 751,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 757,
+        "excluded": true
+      },
+      {
+        "claim_id": 761,
+        "excluded": true
+      },
+      {
+        "claim_id": 766,
+        "excluded": false,
+        "ndcg10": 0.43067655807339306,
+        "recall100": 1.0,
+        "mrr100": 0.25
+      },
+      {
+        "claim_id": 776,
+        "excluded": true
+      },
+      {
+        "claim_id": 779,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 780,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 788,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 792,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 801,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 815,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 825,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 838,
+        "excluded": true
+      },
+      {
+        "claim_id": 883,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 884,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 885,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 886,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 895,
+        "excluded": true
+      },
+      {
+        "claim_id": 898,
+        "excluded": true
+      },
+      {
+        "claim_id": 930,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 952,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 953,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 954,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 962,
+        "excluded": false,
+        "ndcg10": 0.9674679834891693,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 964,
+        "excluded": false,
+        "ndcg10": 0.3562071871080222,
+        "recall100": 1.0,
+        "mrr100": 0.16666666666666666
+      },
+      {
+        "claim_id": 969,
+        "excluded": true
+      },
+      {
+        "claim_id": 984,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1001,
+        "excluded": true
+      },
+      {
+        "claim_id": 1003,
+        "excluded": false,
+        "ndcg10": 0.9060254355346823,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1004,
+        "excluded": false,
+        "ndcg10": 0.9674679834891693,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1005,
+        "excluded": false,
+        "ndcg10": 0.9674679834891693,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1008,
+        "excluded": true
+      },
+      {
+        "claim_id": 1009,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1011,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1018,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1028,
+        "excluded": false,
+        "ndcg10": 0.8772153153380493,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1045,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1058,
+        "excluded": true
+      },
+      {
+        "claim_id": 1067,
+        "excluded": true
+      },
+      {
+        "claim_id": 1069,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1073,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1084,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1098,
+        "excluded": true
+      },
+      {
+        "claim_id": 1115,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1125,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1133,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1148,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1156,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1173,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1193,
+        "excluded": true
+      },
+      {
+        "claim_id": 1195,
+        "excluded": true
+      },
+      {
+        "claim_id": 1206,
+        "excluded": true
+      },
+      {
+        "claim_id": 1214,
+        "excluded": true
+      },
+      {
+        "claim_id": 1219,
+        "excluded": true
+      },
+      {
+        "claim_id": 1223,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 1.0,
+        "mrr100": 0.011235955056179775
+      },
+      {
+        "claim_id": 1229,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1235,
+        "excluded": true
+      },
+      {
+        "claim_id": 1246,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 1.0,
+        "mrr100": 0.06666666666666667
+      },
+      {
+        "claim_id": 1249,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1260,
+        "excluded": false,
+        "ndcg10": 0.6309297535714575,
+        "recall100": 1.0,
+        "mrr100": 0.5
+      },
+      {
+        "claim_id": 1261,
+        "excluded": false,
+        "ndcg10": 0.5,
+        "recall100": 1.0,
+        "mrr100": 0.3333333333333333
+      },
+      {
+        "claim_id": 1275,
+        "excluded": true
+      },
+      {
+        "claim_id": 1291,
+        "excluded": true
+      },
+      {
+        "claim_id": 1306,
+        "excluded": true
+      },
+      {
+        "claim_id": 1311,
+        "excluded": false,
+        "ndcg10": 0.0,
+        "recall100": 1.0,
+        "mrr100": 0.041666666666666664
+      },
+      {
+        "claim_id": 1324,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1350,
+        "excluded": true
+      },
+      {
+        "claim_id": 1364,
+        "excluded": true
+      },
+      {
+        "claim_id": 1390,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      },
+      {
+        "claim_id": 1404,
+        "excluded": false,
+        "ndcg10": 1.0,
+        "recall100": 1.0,
+        "mrr100": 1.0
+      }
+    ]
+  },
+  "query_latency_ms": 0.2695805858820677,
+  "sweep_time_sec": 0.7131681658793241
+}

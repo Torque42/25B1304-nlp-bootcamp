@@ -1,0 +1,77 @@
+{
+  "note": "Five-fold selection stability on validation only; not independent test estimate. No weight training. Non-stratified positive claims shuffled seed42.",
+  "configs": 100,
+  "out_of_fold_ndcg": 0.8717899589285097,
+  "folds": [
+    {
+      "fold": 0,
+      "config": {
+        "constant": 10,
+        "weights": [
+          0.25,
+          0.5,
+          0.25
+        ],
+        "family": "three_retriever"
+      },
+      "train_ndcg": 0.8931795351341577,
+      "heldout_ndcg": 0.8829156346247043
+    },
+    {
+      "fold": 1,
+      "config": {
+        "constant": 10,
+        "weights": [
+          1,
+          1,
+          0
+        ],
+        "family": "two_retriever"
+      },
+      "train_ndcg": 0.8994623138510108,
+      "heldout_ndcg": 0.8497333819307727
+    },
+    {
+      "fold": 2,
+      "config": {
+        "constant": 10,
+        "weights": [
+          0.25,
+          0.5,
+          0.25
+        ],
+        "family": "three_retriever"
+      },
+      "train_ndcg": 0.8850710443817044,
+      "heldout_ndcg": 0.9152469590746607
+    },
+    {
+      "fold": 3,
+      "config": {
+        "constant": 10,
+        "weights": [
+          0.25,
+          0.25,
+          0.5
+        ],
+        "family": "three_retriever"
+      },
+      "train_ndcg": 0.9016781712635383,
+      "heldout_ndcg": 0.787057869659527
+    },
+    {
+      "fold": 4,
+      "config": {
+        "constant": 10,
+        "weights": [
+          1,
+          1,
+          0
+        ],
+        "family": "two_retriever"
+      },
+      "train_ndcg": 0.8812459816137385,
+      "heldout_ndcg": 0.923466155272113
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+baseline_full 0.4242424242424242 1 {'rule': 'two_stage', 'evidence_threshold': 0.01, 'conditional_threshold': 0.5}
+zeroshot_lexical_windows_hybrid_max 0.4069264069264069 1 {'rule': 'two_stage', 'evidence_threshold': 0.05, 'conditional_threshold': 0.5}
+zeroshot_lexical_windows_hybrid_mean 0.41777777777777775 1 {'rule': 'two_stage', 'evidence_threshold': 0.05, 'conditional_threshold': 0.5}
+finetuned_full_hybrid_max 0.5982905982905983 3 {'rule': 'two_stage', 'evidence_threshold': 0.9, 'conditional_threshold': 0.7}
+finetuned_full_hybrid_mean 0.5982905982905983 3 {'rule': 'two_stage', 'evidence_threshold': 0.9, 'conditional_threshold': 0.7}
+finetuned_lexical_windows_hybrid_max 0.5769230769230771 3 {'rule': 'neutral_gate', 'threshold': 0.7}
+finetuned_lexical_windows_hybrid_mean 0.579185520361991 1 {'rule': 'two_stage', 'evidence_threshold': 0.2, 'conditional_threshold': 0.5}
+zeroshot_all_windows_hybrid_max 0.44166666666666665 1 {'rule': 'two_stage', 'evidence_threshold': 0.05, 'conditional_threshold': 0.5}
+zeroshot_all_windows_hybrid_mean 0.4330708661417323 1 {'rule': 'two_stage', 'evidence_threshold': 0.01, 'conditional_threshold': 0.5}

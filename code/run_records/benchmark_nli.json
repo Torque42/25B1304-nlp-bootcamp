@@ -1,0 +1,25 @@
+{
+  "kind": "nli",
+  "source": "cross-encoder/nli-deberta-v3-small",
+  "revision": "fa2804872c3b4bd748f38c0185cc85775361e735",
+  "parameters": 141897219,
+  "device": "mps",
+  "dtype": "float32",
+  "max_length": 512,
+  "pooling": "raw_logits",
+  "load_time_sec": 24.062503334134817,
+  "label_mapping": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+  },
+  "finite_forward": true,
+  "cpu_mps_max_abs_difference": 5.364418029785156e-06,
+  "comparison_absolute_tolerance": 0.01,
+  "benchmark_items": 32,
+  "inference_sec": 1.7940099590923637,
+  "items_per_sec": 17.837136208647152,
+  "peak_rss_mb": 1211.875,
+  "mps_allocated_bytes": 808526336,
+  "mps_driver_bytes": 4887478272
+}
